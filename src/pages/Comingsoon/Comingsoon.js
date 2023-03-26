@@ -67,7 +67,7 @@ function Comingsoon() {
   };
 
   const getDeadTime = () => {
-    let deadline = new Date("2023-03-25");
+    let deadline = new Date("2023-03-30");
 
     // This is where you need to adjust if
     // you entend to add more time
