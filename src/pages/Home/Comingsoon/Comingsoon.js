@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
-import LoadingSpinner from "../../util/components/LoadingSpinner/LoadingSpinner";
+import LoadingSpinner from "../../../util/components/LoadingSpinner/LoadingSpinner";
 
 
 import "./Comingsoon.css";

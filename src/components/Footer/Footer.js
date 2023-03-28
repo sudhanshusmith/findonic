@@ -65,7 +65,7 @@ function Footer() {
                                     {/* <FontAwesomeIcon icon={faLinkedIn} /> */}
                                     <img src={linkedin}  width="22" alt=""/>
                                 </a>
-                                <a href="https://wa.me/+917870565464" target="_blank" class="social-icon-footer w-inline-block">
+                                <a href="https://chat.whatsapp.com/DXslO152avbEzcnuZJIh8C" target="_blank" class="social-icon-footer w-inline-block">
                                     <img src={whatsapp} width="22" alt=""/>
                                 </a>
                             </div>
