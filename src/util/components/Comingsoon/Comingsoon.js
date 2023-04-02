@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
-import LoadingSpinner from "../../../util/components/LoadingSpinner/LoadingSpinner";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 
 import "./Comingsoon.css";
@@ -85,7 +85,7 @@ function Comingsoon() {
     clearTimer(getDeadTime());
   }, []);
 
-  return (<React.Fragment>
+  return (<>
    
       <header id="header" className="d-flex align-items-center">
         <div className="container d-flex flex-column align-items-center">
@@ -127,7 +127,7 @@ function Comingsoon() {
         </div>
       </header>
      
-    </React.Fragment>
+    </>
   );
 }
 

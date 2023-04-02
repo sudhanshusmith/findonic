@@ -5,6 +5,8 @@ import { faLinkedIn } from "@fortawesome/free-solid-svg-icons";
 
 import linkedin from '../../images/socialIcons/linkedin2.jpg'
 import whatsapp from '../../images/socialIcons/whatsapp.jpg'
+import fullLogo from '../../images/logo/finonicFull.png'
+import longLogo from '../../images/logo/findonicLogo2.png'
 
 function Footer() {
   return (
@@ -14,7 +16,7 @@ function Footer() {
                 <div class="w-layout-grid footer-main-grid">
                     <div class="footer-left-wrapper">
                         <a href="#" class="footer-logo-link w-nav-brand">
-                            <img src="https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e255fe1633d2ee7700b8de_logo.png" loading="lazy" width="100" alt=""/>
+                            <img src={longLogo} loading="lazy" width="100" alt=""/>
                         </a>
                         <p class="subhead third">
                         Build wolf pack for your startup game - <span class="gray-text">designed for entrepreneurs and investors.</span>

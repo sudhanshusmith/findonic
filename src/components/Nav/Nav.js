@@ -1,4 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom";
+
+
+import fullLogo from '../../images/logo/finonicFull.png'
+import longLogo from '../../images/logo/findonicLogo2.png'
 
 function Navbar() {
   return (
@@ -16,30 +21,30 @@ function Navbar() {
           id="w-node-b67e7efd-255e-321b-f527-21631dbc0c72-1dbc0c70"
           class="first-element"
         >
-          <a href="/" aria-current="page" class="brand w-nav-brand w--current">
+          <Link to="/" aria-current="page" class="brand w-nav-brand w--current">
             <img
-              src="https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e255fe1633d2ee7700b8de_logo.png"
+              src={longLogo}
               loading="lazy"
               width="100"
               alt=""
             />
-          </a>
+          </Link>
           <div class="shrink-item">
             <div class="flex-center">
               <nav role="navigation" class="nav-menu w-nav-menu">
-                <a
-                  href="/"
-                  aria-current="page"
+                <Link
+                  to='/'
+                  // aria-current="page"
                   class="nav-link w-nav-link w--current"
                 >
                   Home
-                </a>
-                <a href="/about" class="nav-link w-nav-link">
+                </Link>
+                <Link to="/about" class="nav-link w-nav-link">
                   About
-                </a>
-                <a href="/about" class="nav-link w-nav-link">
+                </Link>
+                <Link to="/news" class="nav-link w-nav-link">
                   News
-                </a>
+                </Link>
                 {/* <div
                   data-hover="true"
                   data-delay="0"
@@ -76,19 +81,19 @@ function Navbar() {
                     </a>
                   </nav>
                 </div> */}
-                <a href="/contact" class="nav-link w-nav-link">
+                <Link to="/contact" class="nav-link w-nav-link">
                   Contact
-                </a>
+                </Link>
               </nav>
             </div>
           </div>
         </div>
         <div class="flex-nav-button">
-          <a href="#" class="button-line-link hide-mobile w-inline-block">
+          <a href="https://chat.whatsapp.com/DXslO152avbEzcnuZJIh8C" class="button-line-link hide-mobile w-inline-block">
             <div>Join US</div>
           </a>
           <a
-            href="/contact"
+            href="https://wa.me/+917870565464"
             class="button-arrow-link hide-landscape w-inline-block"
           >
             <div class="button-label">

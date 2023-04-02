@@ -7,14 +7,12 @@ import Download from './Download/Download'
 
 function Home() {
   return (
-    <>
     <div id="Top" class="page-content">
     <Hero />
     <Step />
     <How />
     <Download />
     </div>
-    </>
   )
 }
 
