@@ -103,16 +103,16 @@ function About() {
                                     </div>
                                     <div class="margin-30px">
                                         <div class="social-wrapper center">
-                                            <a href="https://twitter.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://twitter.com/sudhanshusmith" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbef454fc1ef_twitter.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://instagram.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://www.instagram.com/arora_tushar_98/" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbbf034fc1f7_instagram.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://www.slack.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://join.slack.com/t/findonic/shared_invite/zt-1r6zn6278-A~6kJ4lyRufsNAqgGCwVmA" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfb6ed34fc214_slack.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://www.dribbble.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://github.com/tarora2" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e3b724998a04908b2dc673_github.svg" loading="lazy" width="22" alt=""/>
                                             </a>
                                         </div>
@@ -139,16 +139,16 @@ function About() {
                                     </div>
                                     <div class="margin-30px">
                                         <div class="social-wrapper center">
-                                            <a href="https://twitter.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://twitter.com/sudhanshusmith" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbef454fc1ef_twitter.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://instagram.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://www.instagram.com/sudhanshusmith/" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbbf034fc1f7_instagram.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://www.slack.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://join.slack.com/t/findonic/shared_invite/zt-1r6zn6278-A~6kJ4lyRufsNAqgGCwVmA" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfb6ed34fc214_slack.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://www.dribbble.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://github.com/sudhanshusmith" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e3b724998a04908b2dc673_github.svg" loading="lazy" width="22" alt=""/>
                                             </a>
                                         </div>
@@ -175,16 +175,16 @@ function About() {
                                     </div>
                                     <div class="margin-30px">
                                         <div class="social-wrapper center">
-                                            <a href="https://twitter.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://twitter.com/tushaargoyal" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbef454fc1ef_twitter.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://instagram.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="http://instagram.com/tushaargoyal" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbbf034fc1f7_instagram.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://www.slack.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://join.slack.com/t/findonic/shared_invite/zt-1r6zn6278-A~6kJ4lyRufsNAqgGCwVmA" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfb6ed34fc214_slack.svg" loading="lazy" width="20" alt=""/>
                                             </a>
-                                            <a href="https://www.dribbble.com/" target="_blank" class="social-icon-footer w-inline-block">
+                                            <a href="https://github.com/tushaargoyal" target="_blank" class="social-icon-footer w-inline-block">
                                                 <img src="https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e3b724998a04908b2dc673_github.svg" loading="lazy" width="22" alt=""/>
                                             </a>
                                         </div>

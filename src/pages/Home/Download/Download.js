@@ -1,6 +1,6 @@
 import React from 'react'
 
-import appTemplate from '../../../images/app/appTemplate.png'
+import appTemplate from '../../../images/app/appTemplate2.png'
 
 function Download() {
   return (

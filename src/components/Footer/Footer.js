@@ -1,14 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedIn } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedIn, faWhatsapp} from "@fortawesome/free-solid-svg-icons";
 
 import linkedin from '../../images/socialIcons/linkedin2.jpg'
-import whatsapp from '../../images/socialIcons/whatsapp.jpg'
+import whatsapp from '../../images/socialIcons/whatsapp3.png'
 import fullLogo from '../../images/logo/finonicFull.png'
 import longLogo from '../../images/logo/findonicLogo2.png'
 
 function Footer() {
+
+    function ScrollToTop(){
+        window.scrollTo(0, 0)
+    }
+
   return (
       <footer class="footer">
         <div class="container">
@@ -23,7 +29,7 @@ function Footer() {
                         </p>
                         <div class="margin-20px make-15px">
                             <p class="copyright">
-                            &#169; Copyright 2022 - 2023
+                            &#169; Copyright 2022 - 2024
                             </p>
                             {/* <p class="copyright">
                             All rights reserved 
@@ -33,26 +39,27 @@ function Footer() {
                     <div class="w-layout-grid footer-grid">
                         <div class="foorer-list">
                             <div class="footer-title">Navigation</div>
-                            <a href="/" aria-current="page" class="footer-link w-inline-block w--current">
+                            <Link to="/" aria-current="page" class="footer-link w-inline-block w--current"
+                            onClick={ScrollToTop}>
                                 <div>Home</div>
-                            </a>
-                            <a href="/about" class="footer-link w-inline-block">
+                            </Link>
+                            <Link to="about/" class="footer-link w-inline-block" onClick={ScrollToTop}>
                                 <div>About</div>
-                            </a>
-                            <a href="/contact" class="footer-link w-inline-block">
+                            </Link>
+                            <Link to="contact/" class="footer-link w-inline-block" onClick={ScrollToTop}>
                                 <div>Contact</div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="foorer-list">
                             <div class="footer-title">Resources</div>
-                            <a href="/news" class="footer-link w-inline-block">
+                            <Link href="news/" class="footer-link w-inline-block" onClick={ScrollToTop}>
                                 <div>News</div>
+                            </Link>
+                            <a href="#" class="footer-link w-inline-block" onClick={ScrollToTop}>
+                                <div>Privacy Policy</div>
                             </a>
-                            <a href="/template-info/style-guide" class="footer-link w-inline-block">
-                                <div>Style Guide</div>
-                            </a>
-                            <a href="/template-info/licensing" class="footer-link w-inline-block">
-                                <div>Licensing </div>
+                            <a href="#" class="footer-link w-inline-block" onClick={ScrollToTop}>
+                                <div>Terms & Condition</div>
                             </a>
                            
                         </div>
@@ -68,7 +75,7 @@ function Footer() {
                                     <img src={linkedin}  width="22" alt=""/>
                                 </a>
                                 <a href="https://chat.whatsapp.com/DXslO152avbEzcnuZJIh8C" target="_blank" class="social-icon-footer w-inline-block">
-                                    <img src={whatsapp} width="22" alt=""/>
+                                    <img src={whatsapp} width="22" alt="kk"/>
                                 </a>
                             </div>
                         </div>

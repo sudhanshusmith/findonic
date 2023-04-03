@@ -15,8 +15,8 @@ import Contact from './pages/Contact/Contact';
 import RootLayout from './pages/RootLayout/RootLayout';
 import ErrorPage from './util/components/ErrorPage/ErrorPage';
 
-// import './bootstrap.css'
-// import './index.css';
+import './bootstrap.css'
+import './index.css';
 
 
 const router = createBrowserRouter([

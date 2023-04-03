@@ -6838,7 +6838,7 @@ figcaption {
   color: #747474;
   font-size: 16px;
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .contact-link:hover {
@@ -6982,18 +6982,18 @@ figcaption {
   margin-bottom: 25px;
   margin-left: auto;
   border-radius: 100%;
-  background-image: url("https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f092e55ae4e36deca396_team-3.jpg");
+  background-image: url("./images/founders/arora.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .team-photo.member-2 {
-  background-image: url("https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f093d6c2ad105bda82e3_team-1.jpg");
+  background-image: url("./images/founders/sudhanshu.jpg");
 }
 
 .team-photo.member-3 {
-  background-image: url("https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f22c59f2807bab481ccd_team-2.jpg");
+  background-image: url("./images/founders/goyal.jpg");
 }
 
 .faq-grid {
