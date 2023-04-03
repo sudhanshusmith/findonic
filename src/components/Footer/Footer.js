@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedIn, faWhatsapp} from "@fortawesome/free-solid-svg-icons";
+import { faLinkedIn} from "@fortawesome/free-solid-svg-icons";
 
 import linkedin from '../../images/socialIcons/linkedin2.jpg'
-import whatsapp from '../../images/socialIcons/whatsapp3.png'
+import whatsapp from '../../images/socialIcons/whatsapp.jpg'
 import fullLogo from '../../images/logo/finonicFull.png'
 import longLogo from '../../images/logo/findonicLogo2.png'
 
