@@ -1,0 +1,264 @@
+/* Utilities class  */
+/* .red-bor {
+  border: 2px solid red;
+}
+
+.black-bor {
+  border: 2px solid black;
+}
+
+.blue-bor {
+  border: 2px solid blue;
+} */
+
+
+/* Nvbar stick issues  */
+#newss{
+  margin-top: 110px;
+}
+
+/* CSS of Left side Bar  */
+.left-bar h2 {
+  border: 3px solid #116530;
+  color: #116530;
+}
+
+.left-bar li {
+  list-style: none;
+}
+.left-bar a {
+  text-decoration: none;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-muted {
+  color: #6c6b6b;
+}
+
+img {
+  float: right;
+  padding-right: 0;
+}
+
+/* CSS of Right side bar  */
+input {
+  width: 100%;
+  color: #6c6b6b;
+  background-color: #f2f2f2;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  height: 40px;
+  border: none;
+}
+.search-bar {
+  color: #6c6b6b;
+  background-color: #f2f2f2;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  height: 40px;
+  border: none;
+}
+
+.right-bar {
+  padding: 0;
+}
+
+.notice-board {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+}
+.notice-board h4 {
+  color: #000000;
+  font-weight: bold;
+  margin: 24px;
+  padding-top: 20px;
+}
+
+.notice-board h6 {
+  color: #6c6b6b;
+  margin-left: 24px;
+}
+
+.notice-board p {
+  margin-left: 24px;
+  /* font-weight: bold; */
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  padding-right: 8px;
+}
+
+.notice-board .more {
+  float: right;
+}
+
+.notice-board img {
+  padding-right: 15px;
+}
+
+.notice-board .show-more {
+  margin-left: 24px;
+}
+.notice-board .show-more {
+  text-decoration: none;
+  color: #116530;
+  font-weight: bold;
+}
+
+/* CSS of middle Home Bar  */
+.middle-home-bar h4 {
+  font-weight: bold;
+}
+
+.profile-icon img {
+  float: left;
+}
+
+.profile-icon p {
+  color: #6c6b6b;
+}
+
+.group-button {
+  float: left;
+}
+
+.post {
+  /* float: right; */
+  color: #ffffff;
+  background-color: #116530;
+  border-radius: 8px;
+  border: 1px solid #116530;
+  font-size: larger;
+}
+
+.post-anonymous {
+  /* float: right; */
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  font-size: larger;
+}
+
+
+
+.post-category p {
+  color: #6c6b6b;
+}
+
+.post-category img {
+  float: left;
+}
+.user {
+  margin-top: -16px;
+}
+.user p {
+  color: black;
+  font-weight: bold;
+}
+
+.post-photos-1 {
+  width: 100%;
+  background-color: #ff9999;
+  border-radius: 36px;
+}
+
+.post-photos-2 {
+  width: 100%;
+  background-color: #e8e8cc;
+  border-radius: 36px;
+}
+
+/* CSS of Notifications Start Here  */
+.notifications p {
+  color: #000000;
+}
+
+.notifications span {
+  color: black;
+}
+
+.full-post{
+  background-color: #F3F3F3;
+  border: o.5 px solid #7e7e7e;
+  border-radius: 5px;
+}
+
+
+/* Profile page CSS starts from here  */
+.profile-img{
+  height: 50px;
+  width: 50px;
+}
+
+.profile p {
+  color: #000000;
+}
+.profile .edit{
+  background-color: rgba(196, 196, 196, 0.48);
+  border-radius: 35px;
+  
+}
+.profile .about{
+ padding-left: 36px;
+}
+.entry1{
+  padding-left: 36px;
+}
+.entry2{
+  padding-left: 30px;
+}
+@media  (max-width: 1240px){
+  .profile h3{
+    font-size: 20px;
+  }
+   .edit h5{
+    font-size: 15px;
+  }
+}
+
+@media  (max-width: 800px){
+  .profile h3{
+    font-size: 18px;
+  }
+   .edit h5{
+    font-size: 15px;
+  }
+}
+
+
+@media  (max-width: 550px){
+  .entry1{
+    padding-left: 0px;
+    text-align: center;
+
+  }
+  .entry2{
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+
+
+.post-edit{
+  float: right;
+}
+
+.feed{
+  float: left;
+}
+
+
+.feed-underline-div{
+  margin-top: -22px;
+}
+
+.feed-underline{
+  height: 2px;
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+
+
+}

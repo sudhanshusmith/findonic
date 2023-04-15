@@ -4,60 +4,62 @@
  * Inline scripts may access the api using an async handler:
  *   var Webflow = Webflow || [];
  *   Webflow.push(readyFunction);
- */ !(function (e) {
-  var t = {};
-  function n(r) {
-    if (t[r]) return t[r].exports;
-    var i = (t[r] = { i: r, l: !1, exports: {} });
-    return e[r].call(i.exports, i, i.exports, n), (i.l = !0), i.exports;
-  }
-  (n.m = e),
-    (n.c = t),
-    (n.d = function (e, t, r) {
-      n.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r });
-    }),
-    (n.r = function (e) {
-      "undefined" != typeof Symbol &&
-        Symbol.toStringTag &&
-        Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-        Object.defineProperty(e, "__esModule", { value: !0 });
-    }),
-    (n.t = function (e, t) {
-      if ((1 & t && (e = n(e)), 8 & t)) return e;
-      if (4 & t && "object" == typeof e && e && e.__esModule) return e;
-      var r = Object.create(null);
-      if (
-        (n.r(r),
-        Object.defineProperty(r, "default", { enumerable: !0, value: e }),
-        2 & t && "string" != typeof e)
-      )
-        for (var i in e)
-          n.d(
-            r,
-            i,
-            function (t) {
-              return e[t];
-            }.bind(null, i)
-          );
-      return r;
-    }),
-    (n.n = function (e) {
-      var t =
-        e && e.__esModule
-          ? function () {
-              return e.default;
-            }
-          : function () {
-              return e;
-            };
-      return n.d(t, "a", t), t;
-    }),
-    (n.o = function (e, t) {
-      return Object.prototype.hasOwnProperty.call(e, t);
-    }),
-    (n.p = ""),
-    n((n.s = 380));
-})([
+ */ 
+// !(function (e) {
+//   var t = {};
+//   function n(r) {
+//     if (t[r]) return t[r].exports;
+//     var i = (t[r] = { i: r, l: !1, exports: {} });
+//     return e[r].call(i.exports, i, i.exports, n), (i.l = !0), i.exports;
+//   }
+//   (n.m = e),
+//     (n.c = t),
+//     (n.d = function (e, t, r) {
+//       n.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r });
+//     }),
+//     (n.r = function (e) {
+//       "undefined" != typeof Symbol &&
+//         Symbol.toStringTag &&
+//         Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+//         Object.defineProperty(e, "__esModule", { value: !0 });
+//     }),
+//     (n.t = function (e, t) {
+//       if ((1 & t && (e = n(e)), 8 & t)) return e;
+//       if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+//       var r = Object.create(null);
+//       if (
+//         (n.r(r),
+//         Object.defineProperty(r, "default", { enumerable: !0, value: e }),
+//         2 & t && "string" != typeof e)
+//       )
+//         for (var i in e)
+//           n.d(
+//             r,
+//             i,
+//             function (t) {
+//               return e[t];
+//             }.bind(null, i)
+//           );
+//       return r;
+//     }),
+//     (n.n = function (e) {
+//       var t =
+//         e && e.__esModule
+//           ? function () {
+//               return e.default;
+//             }
+//           : function () {
+//               return e;
+//             };
+//       return n.d(t, "a", t), t;
+//     }),
+//     (n.o = function (e, t) {
+//       return Object.prototype.hasOwnProperty.call(e, t);
+//     }),
+//     (n.p = ""),
+//     n((n.s = 380));
+// })
+([
   function (e, t) {
     e.exports = function (e) {
       return e && e.__esModule ? e : { default: e };
@@ -52401,3292 +52403,3292 @@
  * ----------------------------------------------------------------------
  * Webflow: Interactions 2.0: Init
  */
-Webflow.require("ix2").init({
-  events: {
-    "e-53": {
-      id: "e-53",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-1037",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "5e85b49e3d42b8352ca48ca1",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "5e85b49e3d42b8352ca48ca1",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1578931668952,
-    },
-    "e-54": {
-      id: "e-54",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-53",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "5e85b49e3d42b8352ca48ca1",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "5e85b49e3d42b8352ca48ca1",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1578931668953,
-    },
-    "e-69": {
-      id: "e-69",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-70",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "5e85b49e3d42b88fd7a48c8e",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "5e85b49e3d42b88fd7a48c8e",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1578933913372,
-    },
-    "e-70": {
-      id: "e-70",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-69",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "5e85b49e3d42b88fd7a48c8e",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "5e85b49e3d42b88fd7a48c8e",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1578933913373,
-    },
-    "e-972": {
-      id: "e-972",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "MOUSE_OVER",
-      action: {
-        id: "",
-        actionTypeId: "POP_EFFECT",
-        instant: false,
-        config: { actionListId: "pop", autoStopEventId: "e-973" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".circle-plus",
-        originalId:
-          "63d8fb6b7158593819c9f835|268048a3-a4ff-c5df-e425-0a85701269d5",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".circle-plus",
-          originalId:
-            "63d8fb6b7158593819c9f835|268048a3-a4ff-c5df-e425-0a85701269d5",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: 0,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1586102220225,
-    },
-    "e-3249": {
-      id: "e-3249",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "MOUSE_OVER",
-      action: {
-        id: "",
-        actionTypeId: "PULSE_EFFECT",
-        instant: false,
-        config: { actionListId: "pulse", autoStopEventId: "e-3250" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b715859934dc9f7fc|c06e727b-0401-ece0-8319-662ac09203e5",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b715859934dc9f7fc|c06e727b-0401-ece0-8319-662ac09203e5",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: 0,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1637749794276,
-    },
-    "e-3321": {
-      id: "e-3321",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "SLIDE_EFFECT",
-        instant: false,
-        config: { actionListId: "slideInBottom", autoStopEventId: "e-3322" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".text-field-line",
-        originalId:
-          "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".text-field-line",
-          originalId:
-            "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 20,
-        scrollOffsetUnit: "%",
-        delay: 200,
-        direction: "BOTTOM",
-        effectIn: true,
-      },
-      createdOn: 1635244912665,
-    },
-    "e-3327": {
-      id: "e-3327",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "MOUSE_OVER",
-      action: {
-        id: "",
-        actionTypeId: "PULSE_EFFECT",
-        instant: false,
-        config: { actionListId: "pulse", autoStopEventId: "e-3328" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63284ad402718825d4cea026|826a4673-a42d-2c28-0517-1ef23b827c50",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63284ad402718825d4cea026|826a4673-a42d-2c28-0517-1ef23b827c50",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: 0,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1637756956782,
-    },
-    "e-3357": {
-      id: "e-3357",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "MOUSE_OVER",
-      action: {
-        id: "",
-        actionTypeId: "PULSE_EFFECT",
-        instant: false,
-        config: { actionListId: "pulse", autoStopEventId: "e-3358" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158599ed7c9f7e9|f93338aa-1947-1d66-7e93-1d12142d0442",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158599ed7c9f7e9|f93338aa-1947-1d66-7e93-1d12142d0442",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: 0,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1637758003767,
-    },
-    "e-3366": {
-      id: "e-3366",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "MOUSE_OVER",
-      action: {
-        id: "",
-        actionTypeId: "PULSE_EFFECT",
-        instant: false,
-        config: { actionListId: "pulse", autoStopEventId: "e-3367" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158599352c9f7eb|51dbe968-bd1e-5421-32d2-29ac871dc659",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158599352c9f7eb|51dbe968-bd1e-5421-32d2-29ac871dc659",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: 0,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1637758056910,
-    },
-    "e-3375": {
-      id: "e-3375",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "MOUSE_OVER",
-      action: {
-        id: "",
-        actionTypeId: "PULSE_EFFECT",
-        instant: false,
-        config: { actionListId: "pulse", autoStopEventId: "e-3376" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63284ad40271885f91cea025|7fbaa4d9-1887-b280-2778-58aa82570dd3",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63284ad40271885f91cea025|7fbaa4d9-1887-b280-2778-58aa82570dd3",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: 0,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1637759358523,
-    },
-    "e-3482": {
-      id: "e-3482",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "SLIDE_EFFECT",
-        instant: false,
-        config: { actionListId: "slideInBottom", autoStopEventId: "e-3483" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".text-field-form",
-        originalId:
-          "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".text-field-form",
-          originalId:
-            "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 20,
-        scrollOffsetUnit: "%",
-        delay: 200,
-        direction: "BOTTOM",
-        effectIn: true,
-      },
-      createdOn: 1635244912665,
-    },
-    "e-3652": {
-      id: "e-3652",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "SLIDE_EFFECT",
-        instant: false,
-        config: { actionListId: "slideInBottom", autoStopEventId: "e-5351" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".award-content",
-        originalId:
-          "63d8fb6b7158593819c9f835|bb9b9647-6824-8e6a-1cc6-cbb5ae6c2559",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".award-content",
-          originalId:
-            "63d8fb6b7158593819c9f835|bb9b9647-6824-8e6a-1cc6-cbb5ae6c2559",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 100,
-        direction: "BOTTOM",
-        effectIn: true,
-      },
-      createdOn: 1643719211352,
-    },
-    "e-3826": {
-      id: "e-3826",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "MOUSE_MOVE",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
-        config: { actionListId: "a-232", affectedElements: {}, duration: 0 },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".blog-link",
-        originalId:
-          "63d8fb6b7158596341c9f7dd|db5bb0b2-85c2-6629-0e0b-e2b3bb046b3a",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".blog-link",
-          originalId:
-            "63d8fb6b7158596341c9f7dd|db5bb0b2-85c2-6629-0e0b-e2b3bb046b3a",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: [
-        {
-          continuousParameterGroupId: "a-232-p",
-          selectedAxis: "X_AXIS",
-          basedOn: "ELEMENT",
-          reverse: false,
-          smoothing: 90,
-          restingState: 50,
-        },
-        {
-          continuousParameterGroupId: "a-232-p-2",
-          selectedAxis: "Y_AXIS",
-          basedOn: "ELEMENT",
-          reverse: false,
-          smoothing: 90,
-          restingState: 50,
-        },
-      ],
-      createdOn: 1619618552717,
-    },
-    "e-4592": {
-      id: "e-4592",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-6970",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b715859e3f5c9f7d0",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b715859e3f5c9f7d0",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649151453302,
-    },
-    "e-4593": {
-      id: "e-4593",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-6993",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b715859e3f5c9f7d0",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b715859e3f5c9f7d0",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649151453302,
-    },
-    "e-4794": {
-      id: "e-4794",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-4795",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158596185c9f7e5",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158596185c9f7e5",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649152801970,
-    },
-    "e-4795": {
-      id: "e-4795",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-4794",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158596185c9f7e5",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158596185c9f7e5",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649152801970,
-    },
-    "e-4869": {
-      id: "e-4869",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-4870",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158591168c9f83e",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158591168c9f83e",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649154033535,
-    },
-    "e-4870": {
-      id: "e-4870",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-4869",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158591168c9f83e",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158591168c9f83e",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649154033535,
-    },
-    "e-5013": {
-      id: "e-5013",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5014",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63284ad402718825d4cea026",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63284ad402718825d4cea026",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155266973,
-    },
-    "e-5014": {
-      id: "e-5014",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5013",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63284ad402718825d4cea026",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63284ad402718825d4cea026",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155266986,
-    },
-    "e-5015": {
-      id: "e-5015",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5016",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63284ad40271885f91cea025",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63284ad40271885f91cea025",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155278011,
-    },
-    "e-5016": {
-      id: "e-5016",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5015",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63284ad40271885f91cea025",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63284ad40271885f91cea025",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155278021,
-    },
-    "e-5017": {
-      id: "e-5017",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5018",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158591e39c9f7ec",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158591e39c9f7ec",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155295848,
-    },
-    "e-5018": {
-      id: "e-5018",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5017",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158591e39c9f7ec",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158591e39c9f7ec",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155295861,
-    },
-    "e-5019": {
-      id: "e-5019",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5020",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158599352c9f7eb",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158599352c9f7eb",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155312219,
-    },
-    "e-5020": {
-      id: "e-5020",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5019",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158599352c9f7eb",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158599352c9f7eb",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155312234,
-    },
-    "e-5021": {
-      id: "e-5021",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5022",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158599ed7c9f7e9",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158599ed7c9f7e9",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155330456,
-    },
-    "e-5022": {
-      id: "e-5022",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5021",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158599ed7c9f7e9",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158599ed7c9f7e9",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155330508,
-    },
-    "e-5023": {
-      id: "e-5023",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5024",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585930b4c9f7fb",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585930b4c9f7fb",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155360682,
-    },
-    "e-5024": {
-      id: "e-5024",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-5023",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585930b4c9f7fb",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585930b4c9f7fb",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1649155360736,
-    },
-    "e-5360": {
-      id: "e-5360",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "SLIDE_EFFECT",
-        instant: false,
-        config: { actionListId: "slideInBottom", autoStopEventId: "e-5432" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".blog-wrapper",
-        originalId:
-          "63d8fb6b71585909e6c9f7ee|9e3ef5e5-6a2a-bf27-62ba-b4bff75b7819",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585909e6c9f7ee|9e3ef5e5-6a2a-bf27-62ba-b4bff75b7819",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 20,
-        scrollOffsetUnit: "%",
-        delay: 100,
-        direction: "BOTTOM",
-        effectIn: true,
-      },
-      createdOn: 1635858659682,
-    },
-    "e-6134": {
-      id: "e-6134",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-6135",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1652438432365,
-    },
-    "e-6135": {
-      id: "e-6135",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-6134",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1652438432376,
-    },
-    "e-6532": {
-      id: "e-6532",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "SCROLLING_IN_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
-        config: { actionListId: "a-342", affectedElements: {}, duration: 0 },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".image-animation",
-        originalId:
-          "63d8fb6b7158596185c9f7e5|3e20fef4-c516-06b7-2a61-8ebe2b5cf694",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".image-animation",
-          originalId:
-            "63d8fb6b7158596185c9f7e5|3e20fef4-c516-06b7-2a61-8ebe2b5cf694",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: [
-        {
-          continuousParameterGroupId: "a-342-p",
-          smoothing: 50,
-          startsEntering: true,
-          addStartOffset: false,
-          addOffsetValue: 50,
-          startsExiting: false,
-          addEndOffset: false,
-          endOffsetValue: 50,
-        },
-      ],
-      createdOn: 1653390959278,
-    },
-    "e-6614": {
-      id: "e-6614",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "MOUSE_MOVE",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
-        config: { actionListId: "a-348", affectedElements: {}, duration: 0 },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        selector: ".button-circle",
-        originalId:
-          "63d8fb6b71585956d3c9f7cb|717ad876-b970-ec66-813a-5e2e8e4321c9",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".button-circle",
-          originalId:
-            "63d8fb6b71585956d3c9f7cb|717ad876-b970-ec66-813a-5e2e8e4321c9",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: [
-        {
-          continuousParameterGroupId: "a-348-p",
-          selectedAxis: "X_AXIS",
-          basedOn: "ELEMENT",
-          reverse: false,
-          smoothing: 50,
-          restingState: 50,
-        },
-        {
-          continuousParameterGroupId: "a-348-p-2",
-          selectedAxis: "Y_AXIS",
-          basedOn: "ELEMENT",
-          reverse: false,
-          smoothing: 50,
-          restingState: 50,
-        },
-      ],
-      createdOn: 1642163776547,
-    },
-    "e-7615": {
-      id: "e-7615",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-7616",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158590c7dc9f7fd",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158590c7dc9f7fd",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1673447410046,
-    },
-    "e-7616": {
-      id: "e-7616",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-7615",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b7158590c7dc9f7fd",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b7158590c7dc9f7fd",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1673447410046,
-    },
-    "e-7889": {
-      id: "e-7889",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "MOUSE_OVER",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-437",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-7890",
-        },
-      },
-      mediaQueries: ["main"],
-      target: {
-        selector: ".button-line",
-        originalId:
-          "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".button-line",
-          originalId:
-            "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1625015493372,
-    },
-    "e-7890": {
-      id: "e-7890",
-      name: "",
-      animationType: "custom",
-      eventTypeId: "MOUSE_OUT",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-438",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-7889",
-        },
-      },
-      mediaQueries: ["main"],
-      target: {
-        selector: ".button-line",
-        originalId:
-          "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
-        appliesTo: "CLASS",
-      },
-      targets: [
-        {
-          selector: ".button-line",
-          originalId:
-            "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
-          appliesTo: "CLASS",
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1625015493377,
-    },
-    "e-7891": {
-      id: "e-7891",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "SLIDE_EFFECT",
-        instant: false,
-        config: { actionListId: "slideInBottom", autoStopEventId: "e-7892" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585930b4c9f7fb|eb6b77d4-5c7b-d30c-b6da-7c7144717a91",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585930b4c9f7fb|eb6b77d4-5c7b-d30c-b6da-7c7144717a91",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: "BOTTOM",
-        effectIn: true,
-      },
-      createdOn: 1674055915184,
-    },
-    "e-7893": {
-      id: "e-7893",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_UP",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-8",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-7894",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63e4f71e97093de3c184bfb0",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63e4f71e97093de3c184bfb0",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1675949854950,
-    },
-    "e-7894": {
-      id: "e-7894",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "PAGE_SCROLL_DOWN",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-9",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-7893",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63e4f71e97093de3c184bfb0",
-        appliesTo: "PAGE",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63e4f71e97093de3c184bfb0",
-          appliesTo: "PAGE",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 0,
-        scrollOffsetUnit: "%",
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1675949854950,
-    },
-    "e-7895": {
-      id: "e-7895",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7896" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|c7e107c3-7469-0f4c-7e86-d65a16712ae1",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|c7e107c3-7469-0f4c-7e86-d65a16712ae1",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036657837,
-    },
-    "e-7897": {
-      id: "e-7897",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7898" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|02d54d2e-89e5-de35-dd01-8a55bad50d8f",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|02d54d2e-89e5-de35-dd01-8a55bad50d8f",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036681058,
-    },
-    "e-7899": {
-      id: "e-7899",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7900" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|4def2669-7bba-7efb-64d3-41b4aaed2bc8",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|4def2669-7bba-7efb-64d3-41b4aaed2bc8",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036687442,
-    },
-    "e-7901": {
-      id: "e-7901",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7902" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|e5695a83-d221-89c8-e625-e600070d5311",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|e5695a83-d221-89c8-e625-e600070d5311",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036694677,
-    },
-    "e-7903": {
-      id: "e-7903",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7904" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|8997c698-f966-e507-7590-17a83ee4915d",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|8997c698-f966-e507-7590-17a83ee4915d",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036703897,
-    },
-    "e-7905": {
-      id: "e-7905",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7906" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|086557b0-634c-ca67-f181-437d4d572a98",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|086557b0-634c-ca67-f181-437d4d572a98",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036710849,
-    },
-    "e-7907": {
-      id: "e-7907",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7908" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|47504bf3-0cf6-7530-0006-1891ef00cee0",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|47504bf3-0cf6-7530-0006-1891ef00cee0",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036717150,
-    },
-    "e-7909": {
-      id: "e-7909",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7910" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|330f0289-f67b-0ad8-8034-de389f67324f",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|330f0289-f67b-0ad8-8034-de389f67324f",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 10,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036723451,
-    },
-    "e-7911": {
-      id: "e-7911",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7912" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|d085625e-d51f-2954-0b96-d0baab7ab015",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|d085625e-d51f-2954-0b96-d0baab7ab015",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036731671,
-    },
-    "e-7913": {
-      id: "e-7913",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7914" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|59ba9d4d-15fd-fabe-9f5e-32bd747e0d29",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|59ba9d4d-15fd-fabe-9f5e-32bd747e0d29",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036736973,
-    },
-    "e-7915": {
-      id: "e-7915",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7916" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|056dbb84-332b-2d57-4525-d7538117a412",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|056dbb84-332b-2d57-4525-d7538117a412",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036741507,
-    },
-    "e-7917": {
-      id: "e-7917",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7918" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd390",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd390",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036749342,
-    },
-    "e-7919": {
-      id: "e-7919",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7920" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd395",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd395",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036756494,
-    },
-    "e-7921": {
-      id: "e-7921",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7922" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|4f0a59c0-6d14-0872-b466-b039020ec17a",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|4f0a59c0-6d14-0872-b466-b039020ec17a",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036761128,
-    },
-    "e-7923": {
-      id: "e-7923",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7924" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|a1553056-826e-931c-7276-165e2b8afdd7",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|a1553056-826e-931c-7276-165e2b8afdd7",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036776016,
-    },
-    "e-7925": {
-      id: "e-7925",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7926" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|80f9d801-559f-021e-8fba-d2c611d9cde0",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|80f9d801-559f-021e-8fba-d2c611d9cde0",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036782801,
-    },
-    "e-7927": {
-      id: "e-7927",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7928" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|10fbed0a-b4f1-bd32-56a0-9a6f2f7051fc",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|10fbed0a-b4f1-bd32-56a0-9a6f2f7051fc",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036787868,
-    },
-    "e-7929": {
-      id: "e-7929",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7930" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|8a7757b1-ea6b-ed45-ea58-6aa3af932475",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|8a7757b1-ea6b-ed45-ea58-6aa3af932475",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036792003,
-    },
-    "e-7931": {
-      id: "e-7931",
-      name: "",
-      animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
-      action: {
-        id: "",
-        actionTypeId: "FADE_EFFECT",
-        instant: false,
-        config: { actionListId: "fadeIn", autoStopEventId: "e-7932" },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        id: "63d8fb6b71585956d3c9f7cb|2f542918-ae47-8a41-ca8c-fa1838a83d98",
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-      },
-      targets: [
-        {
-          id: "63d8fb6b71585956d3c9f7cb|2f542918-ae47-8a41-ca8c-fa1838a83d98",
-          appliesTo: "ELEMENT",
-          styleBlockIds: [],
-        },
-      ],
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: 15,
-        scrollOffsetUnit: "%",
-        delay: 0,
-        direction: null,
-        effectIn: true,
-      },
-      createdOn: 1676036800640,
-    },
-  },
-  actionLists: {
-    "a-8": {
-      id: "a-8",
-      title: "Go Top Scrolled Up",
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              id: "a-8-n-3",
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                easing: "",
-                duration: 500,
-                target: {},
-                xValue: 0,
-                xUnit: "%",
-                yUnit: "PX",
-                zUnit: "PX",
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              id: "a-8-n-4",
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 400,
-                target: {},
-                xValue: 200,
-                xUnit: "%",
-                yUnit: "PX",
-                zUnit: "PX",
-              },
-            },
-          ],
-        },
-      ],
-      useFirstGroupAsInitialState: true,
-      createdOn: 1578588089503,
-    },
-    "a-9": {
-      id: "a-9",
-      title: "Go Top Scrolled Down",
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              id: "a-9-n-3",
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                easing: "outExpo",
-                duration: 600,
-                target: {},
-                xValue: 0,
-                xUnit: "%",
-                yUnit: "PX",
-                zUnit: "PX",
-              },
-            },
-          ],
-        },
-      ],
-      useFirstGroupAsInitialState: false,
-      createdOn: 1578588089503,
-    },
-    "a-232": {
-      id: "a-232",
-      title: "Blog Picture Movement",
-      continuousParameterGroups: [
-        {
-          id: "a-232-p",
-          type: "MOUSE_X",
-          parameterLabel: "Mouse X",
-          continuousActionGroups: [
-            {
-              keyframe: 0,
-              actionItems: [
-                {
-                  id: "a-232-n",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: -80,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-            {
-              keyframe: 100,
-              actionItems: [
-                {
-                  id: "a-232-n-2",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: 80,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: "a-232-p-2",
-          type: "MOUSE_Y",
-          parameterLabel: "Mouse Y",
-          continuousActionGroups: [
-            {
-              keyframe: 0,
-              actionItems: [
-                {
-                  id: "a-232-n-3",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: -80,
-                    xUnit: "px",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-            {
-              keyframe: 100,
-              actionItems: [
-                {
-                  id: "a-232-n-4",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: 80,
-                    xUnit: "px",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-      createdOn: 1619618556188,
-    },
-    "a-342": {
-      id: "a-342",
-      title: "Image Animation",
-      continuousParameterGroups: [
-        {
-          id: "a-342-p",
-          type: "SCROLL_PROGRESS",
-          parameterLabel: "Scroll",
-          continuousActionGroups: [
-            {
-              keyframe: 0,
-              actionItems: [
-                {
-                  id: "a-342-n",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: -50,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-                {
-                  id: "a-342-n-3",
-                  actionTypeId: "TRANSFORM_SCALE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: 1,
-                    yValue: 1,
-                    locked: true,
-                  },
-                },
-              ],
-            },
-            {
-              keyframe: 100,
-              actionItems: [
-                {
-                  id: "a-342-n-2",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: 50,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-                {
-                  id: "a-342-n-4",
-                  actionTypeId: "TRANSFORM_SCALE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: 1.1,
-                    yValue: 1.1,
-                    locked: true,
-                  },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-      createdOn: 1653316381304,
-    },
-    "a-348": {
-      id: "a-348",
-      title: "Button Animation",
-      continuousParameterGroups: [
-        {
-          id: "a-348-p",
-          type: "MOUSE_X",
-          parameterLabel: "Mouse X",
-          continuousActionGroups: [
-            {
-              keyframe: 0,
-              actionItems: [
-                {
-                  id: "a-348-n",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: 10,
-                    xUnit: "px",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-                {
-                  id: "a-348-n-2",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: 4,
-                    xUnit: "px",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-            {
-              keyframe: 100,
-              actionItems: [
-                {
-                  id: "a-348-n-3",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: -10,
-                    xUnit: "px",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-                {
-                  id: "a-348-n-4",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    xValue: -4,
-                    xUnit: "px",
-                    yUnit: "PX",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: "a-348-p-2",
-          type: "MOUSE_Y",
-          parameterLabel: "Mouse Y",
-          continuousActionGroups: [
-            {
-              keyframe: 0,
-              actionItems: [
-                {
-                  id: "a-348-n-5",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: 10,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-                {
-                  id: "a-348-n-6",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: 4,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-            {
-              keyframe: 100,
-              actionItems: [
-                {
-                  id: "a-348-n-7",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: -10,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-                {
-                  id: "a-348-n-8",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {},
-                    yValue: -4,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
-                  },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-      createdOn: 1631620999781,
-    },
-    "a-437": {
-      id: "a-437",
-      title: "Button Line Hover In",
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              id: "a-437-n",
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                easing: "outQuint",
-                duration: 500,
-                target: {
-                  useEventTarget: "CHILDREN",
-                  selector: ".icon-line",
-                  selectorGuids: ["cd0baca9-081a-588c-111c-152dd8c60206"],
-                },
-                xValue: 6,
-                xUnit: "px",
-                yUnit: "PX",
-                zUnit: "PX",
-              },
-            },
-          ],
-        },
-      ],
-      useFirstGroupAsInitialState: false,
-      createdOn: 1625015496555,
-    },
-    "a-438": {
-      id: "a-438",
-      title: "Button Line Hover Out",
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              id: "a-438-n",
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                easing: "outQuint",
-                duration: 500,
-                target: {
-                  useEventTarget: "CHILDREN",
-                  selector: ".icon-line",
-                  selectorGuids: ["cd0baca9-081a-588c-111c-152dd8c60206"],
-                },
-                xValue: 0,
-                xUnit: "px",
-                yUnit: "PX",
-                zUnit: "PX",
-              },
-            },
-          ],
-        },
-      ],
-      useFirstGroupAsInitialState: false,
-      createdOn: 1625015496555,
-    },
-    pop: {
-      id: "pop",
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "outQuart",
-                duration: 250,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 0.7500000000000001,
-                yValue: 0.7500000000000001,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "outElastic",
-                duration: 1000,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1,
-                yValue: 1,
-              },
-            },
-          ],
-        },
-      ],
-    },
-    pulse: {
-      id: "pulse",
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1.1,
-                yValue: 1.1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1,
-                yValue: 1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1.1,
-                yValue: 1.1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1,
-                yValue: 1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1.1,
-                yValue: 1.1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1,
-                yValue: 1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1.1,
-                yValue: 1.1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1,
-                yValue: 1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1.1,
-                yValue: 1.1,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_SCALE",
-              config: {
-                delay: 0,
-                easing: "ease",
-                duration: 100,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 1,
-                yValue: 1,
-              },
-            },
-          ],
-        },
-      ],
-    },
-    slideInBottom: {
-      id: "slideInBottom",
-      useFirstGroupAsInitialState: true,
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              actionTypeId: "STYLE_OPACITY",
-              config: {
-                delay: 0,
-                duration: 0,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                value: 0,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                duration: 0,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 0,
-                yValue: 100,
-                xUnit: "PX",
-                yUnit: "PX",
-                zUnit: "PX",
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "TRANSFORM_MOVE",
-              config: {
-                delay: 0,
-                easing: "outQuart",
-                duration: 1000,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                xValue: 0,
-                yValue: 0,
-                xUnit: "PX",
-                yUnit: "PX",
-                zUnit: "PX",
-              },
-            },
-            {
-              actionTypeId: "STYLE_OPACITY",
-              config: {
-                delay: 0,
-                easing: "outQuart",
-                duration: 1000,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                value: 1,
-              },
-            },
-          ],
-        },
-      ],
-    },
-    fadeIn: {
-      id: "fadeIn",
-      useFirstGroupAsInitialState: true,
-      actionItemGroups: [
-        {
-          actionItems: [
-            {
-              actionTypeId: "STYLE_OPACITY",
-              config: {
-                delay: 0,
-                duration: 0,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                value: 0,
-              },
-            },
-          ],
-        },
-        {
-          actionItems: [
-            {
-              actionTypeId: "STYLE_OPACITY",
-              config: {
-                delay: 0,
-                easing: "outQuart",
-                duration: 1000,
-                target: {
-                  id: "N/A",
-                  appliesTo: "TRIGGER_ELEMENT",
-                  useEventTarget: true,
-                },
-                value: 1,
-              },
-            },
-          ],
-        },
-      ],
-    },
-  },
-  site: {
-    mediaQueries: [
-      { key: "main", min: 992, max: 10000 },
-      { key: "medium", min: 768, max: 991 },
-      { key: "small", min: 480, max: 767 },
-      { key: "tiny", min: 0, max: 479 },
-    ],
-  },
-});
+// Webflow.require("ix2").init({
+//   events: {
+//     "e-53": {
+//       id: "e-53",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-1037",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "5e85b49e3d42b8352ca48ca1",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "5e85b49e3d42b8352ca48ca1",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1578931668952,
+//     },
+//     "e-54": {
+//       id: "e-54",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-53",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "5e85b49e3d42b8352ca48ca1",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "5e85b49e3d42b8352ca48ca1",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1578931668953,
+//     },
+//     "e-69": {
+//       id: "e-69",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-70",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "5e85b49e3d42b88fd7a48c8e",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "5e85b49e3d42b88fd7a48c8e",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1578933913372,
+//     },
+//     "e-70": {
+//       id: "e-70",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-69",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "5e85b49e3d42b88fd7a48c8e",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "5e85b49e3d42b88fd7a48c8e",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1578933913373,
+//     },
+//     "e-972": {
+//       id: "e-972",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "MOUSE_OVER",
+//       action: {
+//         id: "",
+//         actionTypeId: "POP_EFFECT",
+//         instant: false,
+//         config: { actionListId: "pop", autoStopEventId: "e-973" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".circle-plus",
+//         originalId:
+//           "63d8fb6b7158593819c9f835|268048a3-a4ff-c5df-e425-0a85701269d5",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".circle-plus",
+//           originalId:
+//             "63d8fb6b7158593819c9f835|268048a3-a4ff-c5df-e425-0a85701269d5",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: 0,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1586102220225,
+//     },
+//     "e-3249": {
+//       id: "e-3249",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "MOUSE_OVER",
+//       action: {
+//         id: "",
+//         actionTypeId: "PULSE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "pulse", autoStopEventId: "e-3250" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b715859934dc9f7fc|c06e727b-0401-ece0-8319-662ac09203e5",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b715859934dc9f7fc|c06e727b-0401-ece0-8319-662ac09203e5",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: 0,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1637749794276,
+//     },
+//     "e-3321": {
+//       id: "e-3321",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "SLIDE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "slideInBottom", autoStopEventId: "e-3322" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".text-field-line",
+//         originalId:
+//           "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".text-field-line",
+//           originalId:
+//             "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 20,
+//         scrollOffsetUnit: "%",
+//         delay: 200,
+//         direction: "BOTTOM",
+//         effectIn: true,
+//       },
+//       createdOn: 1635244912665,
+//     },
+//     "e-3327": {
+//       id: "e-3327",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "MOUSE_OVER",
+//       action: {
+//         id: "",
+//         actionTypeId: "PULSE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "pulse", autoStopEventId: "e-3328" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63284ad402718825d4cea026|826a4673-a42d-2c28-0517-1ef23b827c50",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63284ad402718825d4cea026|826a4673-a42d-2c28-0517-1ef23b827c50",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: 0,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1637756956782,
+//     },
+//     "e-3357": {
+//       id: "e-3357",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "MOUSE_OVER",
+//       action: {
+//         id: "",
+//         actionTypeId: "PULSE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "pulse", autoStopEventId: "e-3358" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158599ed7c9f7e9|f93338aa-1947-1d66-7e93-1d12142d0442",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158599ed7c9f7e9|f93338aa-1947-1d66-7e93-1d12142d0442",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: 0,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1637758003767,
+//     },
+//     "e-3366": {
+//       id: "e-3366",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "MOUSE_OVER",
+//       action: {
+//         id: "",
+//         actionTypeId: "PULSE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "pulse", autoStopEventId: "e-3367" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158599352c9f7eb|51dbe968-bd1e-5421-32d2-29ac871dc659",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158599352c9f7eb|51dbe968-bd1e-5421-32d2-29ac871dc659",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: 0,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1637758056910,
+//     },
+//     "e-3375": {
+//       id: "e-3375",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "MOUSE_OVER",
+//       action: {
+//         id: "",
+//         actionTypeId: "PULSE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "pulse", autoStopEventId: "e-3376" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63284ad40271885f91cea025|7fbaa4d9-1887-b280-2778-58aa82570dd3",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63284ad40271885f91cea025|7fbaa4d9-1887-b280-2778-58aa82570dd3",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: 0,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1637759358523,
+//     },
+//     "e-3482": {
+//       id: "e-3482",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "SLIDE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "slideInBottom", autoStopEventId: "e-3483" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".text-field-form",
+//         originalId:
+//           "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".text-field-form",
+//           originalId:
+//             "63d8fb6b7158593819c9f835|e32ed8b1-cb0b-c877-657d-0958d6f78108",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 20,
+//         scrollOffsetUnit: "%",
+//         delay: 200,
+//         direction: "BOTTOM",
+//         effectIn: true,
+//       },
+//       createdOn: 1635244912665,
+//     },
+//     "e-3652": {
+//       id: "e-3652",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "SLIDE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "slideInBottom", autoStopEventId: "e-5351" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".award-content",
+//         originalId:
+//           "63d8fb6b7158593819c9f835|bb9b9647-6824-8e6a-1cc6-cbb5ae6c2559",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".award-content",
+//           originalId:
+//             "63d8fb6b7158593819c9f835|bb9b9647-6824-8e6a-1cc6-cbb5ae6c2559",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 100,
+//         direction: "BOTTOM",
+//         effectIn: true,
+//       },
+//       createdOn: 1643719211352,
+//     },
+//     "e-3826": {
+//       id: "e-3826",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "MOUSE_MOVE",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+//         config: { actionListId: "a-232", affectedElements: {}, duration: 0 },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".blog-link",
+//         originalId:
+//           "63d8fb6b7158596341c9f7dd|db5bb0b2-85c2-6629-0e0b-e2b3bb046b3a",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".blog-link",
+//           originalId:
+//             "63d8fb6b7158596341c9f7dd|db5bb0b2-85c2-6629-0e0b-e2b3bb046b3a",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: [
+//         {
+//           continuousParameterGroupId: "a-232-p",
+//           selectedAxis: "X_AXIS",
+//           basedOn: "ELEMENT",
+//           reverse: false,
+//           smoothing: 90,
+//           restingState: 50,
+//         },
+//         {
+//           continuousParameterGroupId: "a-232-p-2",
+//           selectedAxis: "Y_AXIS",
+//           basedOn: "ELEMENT",
+//           reverse: false,
+//           smoothing: 90,
+//           restingState: 50,
+//         },
+//       ],
+//       createdOn: 1619618552717,
+//     },
+//     "e-4592": {
+//       id: "e-4592",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-6970",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b715859e3f5c9f7d0",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b715859e3f5c9f7d0",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649151453302,
+//     },
+//     "e-4593": {
+//       id: "e-4593",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-6993",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b715859e3f5c9f7d0",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b715859e3f5c9f7d0",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649151453302,
+//     },
+//     "e-4794": {
+//       id: "e-4794",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-4795",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158596185c9f7e5",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158596185c9f7e5",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649152801970,
+//     },
+//     "e-4795": {
+//       id: "e-4795",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-4794",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158596185c9f7e5",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158596185c9f7e5",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649152801970,
+//     },
+//     "e-4869": {
+//       id: "e-4869",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-4870",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158591168c9f83e",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158591168c9f83e",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649154033535,
+//     },
+//     "e-4870": {
+//       id: "e-4870",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-4869",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158591168c9f83e",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158591168c9f83e",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649154033535,
+//     },
+//     "e-5013": {
+//       id: "e-5013",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5014",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63284ad402718825d4cea026",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63284ad402718825d4cea026",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155266973,
+//     },
+//     "e-5014": {
+//       id: "e-5014",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5013",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63284ad402718825d4cea026",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63284ad402718825d4cea026",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155266986,
+//     },
+//     "e-5015": {
+//       id: "e-5015",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5016",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63284ad40271885f91cea025",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63284ad40271885f91cea025",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155278011,
+//     },
+//     "e-5016": {
+//       id: "e-5016",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5015",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63284ad40271885f91cea025",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63284ad40271885f91cea025",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155278021,
+//     },
+//     "e-5017": {
+//       id: "e-5017",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5018",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158591e39c9f7ec",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158591e39c9f7ec",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155295848,
+//     },
+//     "e-5018": {
+//       id: "e-5018",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5017",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158591e39c9f7ec",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158591e39c9f7ec",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155295861,
+//     },
+//     "e-5019": {
+//       id: "e-5019",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5020",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158599352c9f7eb",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158599352c9f7eb",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155312219,
+//     },
+//     "e-5020": {
+//       id: "e-5020",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5019",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158599352c9f7eb",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158599352c9f7eb",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155312234,
+//     },
+//     "e-5021": {
+//       id: "e-5021",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5022",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158599ed7c9f7e9",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158599ed7c9f7e9",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155330456,
+//     },
+//     "e-5022": {
+//       id: "e-5022",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5021",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158599ed7c9f7e9",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158599ed7c9f7e9",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155330508,
+//     },
+//     "e-5023": {
+//       id: "e-5023",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5024",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585930b4c9f7fb",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585930b4c9f7fb",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155360682,
+//     },
+//     "e-5024": {
+//       id: "e-5024",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-5023",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585930b4c9f7fb",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585930b4c9f7fb",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1649155360736,
+//     },
+//     "e-5360": {
+//       id: "e-5360",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "SLIDE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "slideInBottom", autoStopEventId: "e-5432" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".blog-wrapper",
+//         originalId:
+//           "63d8fb6b71585909e6c9f7ee|9e3ef5e5-6a2a-bf27-62ba-b4bff75b7819",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585909e6c9f7ee|9e3ef5e5-6a2a-bf27-62ba-b4bff75b7819",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 20,
+//         scrollOffsetUnit: "%",
+//         delay: 100,
+//         direction: "BOTTOM",
+//         effectIn: true,
+//       },
+//       createdOn: 1635858659682,
+//     },
+//     "e-6134": {
+//       id: "e-6134",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-6135",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1652438432365,
+//     },
+//     "e-6135": {
+//       id: "e-6135",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-6134",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1652438432376,
+//     },
+//     "e-6532": {
+//       id: "e-6532",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "SCROLLING_IN_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+//         config: { actionListId: "a-342", affectedElements: {}, duration: 0 },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".image-animation",
+//         originalId:
+//           "63d8fb6b7158596185c9f7e5|3e20fef4-c516-06b7-2a61-8ebe2b5cf694",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".image-animation",
+//           originalId:
+//             "63d8fb6b7158596185c9f7e5|3e20fef4-c516-06b7-2a61-8ebe2b5cf694",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: [
+//         {
+//           continuousParameterGroupId: "a-342-p",
+//           smoothing: 50,
+//           startsEntering: true,
+//           addStartOffset: false,
+//           addOffsetValue: 50,
+//           startsExiting: false,
+//           addEndOffset: false,
+//           endOffsetValue: 50,
+//         },
+//       ],
+//       createdOn: 1653390959278,
+//     },
+//     "e-6614": {
+//       id: "e-6614",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "MOUSE_MOVE",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+//         config: { actionListId: "a-348", affectedElements: {}, duration: 0 },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         selector: ".button-circle",
+//         originalId:
+//           "63d8fb6b71585956d3c9f7cb|717ad876-b970-ec66-813a-5e2e8e4321c9",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".button-circle",
+//           originalId:
+//             "63d8fb6b71585956d3c9f7cb|717ad876-b970-ec66-813a-5e2e8e4321c9",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: [
+//         {
+//           continuousParameterGroupId: "a-348-p",
+//           selectedAxis: "X_AXIS",
+//           basedOn: "ELEMENT",
+//           reverse: false,
+//           smoothing: 50,
+//           restingState: 50,
+//         },
+//         {
+//           continuousParameterGroupId: "a-348-p-2",
+//           selectedAxis: "Y_AXIS",
+//           basedOn: "ELEMENT",
+//           reverse: false,
+//           smoothing: 50,
+//           restingState: 50,
+//         },
+//       ],
+//       createdOn: 1642163776547,
+//     },
+//     "e-7615": {
+//       id: "e-7615",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-7616",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158590c7dc9f7fd",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158590c7dc9f7fd",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1673447410046,
+//     },
+//     "e-7616": {
+//       id: "e-7616",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-7615",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b7158590c7dc9f7fd",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b7158590c7dc9f7fd",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1673447410046,
+//     },
+//     "e-7889": {
+//       id: "e-7889",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "MOUSE_OVER",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-437",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-7890",
+//         },
+//       },
+//       mediaQueries: ["main"],
+//       target: {
+//         selector: ".button-line",
+//         originalId:
+//           "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".button-line",
+//           originalId:
+//             "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1625015493372,
+//     },
+//     "e-7890": {
+//       id: "e-7890",
+//       name: "",
+//       animationType: "custom",
+//       eventTypeId: "MOUSE_OUT",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-438",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-7889",
+//         },
+//       },
+//       mediaQueries: ["main"],
+//       target: {
+//         selector: ".button-line",
+//         originalId:
+//           "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
+//         appliesTo: "CLASS",
+//       },
+//       targets: [
+//         {
+//           selector: ".button-line",
+//           originalId:
+//             "6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1",
+//           appliesTo: "CLASS",
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: null,
+//         scrollOffsetUnit: null,
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1625015493377,
+//     },
+//     "e-7891": {
+//       id: "e-7891",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "SLIDE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "slideInBottom", autoStopEventId: "e-7892" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585930b4c9f7fb|eb6b77d4-5c7b-d30c-b6da-7c7144717a91",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585930b4c9f7fb|eb6b77d4-5c7b-d30c-b6da-7c7144717a91",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: "BOTTOM",
+//         effectIn: true,
+//       },
+//       createdOn: 1674055915184,
+//     },
+//     "e-7893": {
+//       id: "e-7893",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_UP",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-8",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-7894",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63e4f71e97093de3c184bfb0",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63e4f71e97093de3c184bfb0",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1675949854950,
+//     },
+//     "e-7894": {
+//       id: "e-7894",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "PAGE_SCROLL_DOWN",
+//       action: {
+//         id: "",
+//         actionTypeId: "GENERAL_START_ACTION",
+//         config: {
+//           delay: 0,
+//           easing: "",
+//           duration: 0,
+//           actionListId: "a-9",
+//           affectedElements: {},
+//           playInReverse: false,
+//           autoStopEventId: "e-7893",
+//         },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63e4f71e97093de3c184bfb0",
+//         appliesTo: "PAGE",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63e4f71e97093de3c184bfb0",
+//           appliesTo: "PAGE",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 0,
+//         scrollOffsetUnit: "%",
+//         delay: null,
+//         direction: null,
+//         effectIn: null,
+//       },
+//       createdOn: 1675949854950,
+//     },
+//     "e-7895": {
+//       id: "e-7895",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7896" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|c7e107c3-7469-0f4c-7e86-d65a16712ae1",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|c7e107c3-7469-0f4c-7e86-d65a16712ae1",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036657837,
+//     },
+//     "e-7897": {
+//       id: "e-7897",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7898" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|02d54d2e-89e5-de35-dd01-8a55bad50d8f",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|02d54d2e-89e5-de35-dd01-8a55bad50d8f",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036681058,
+//     },
+//     "e-7899": {
+//       id: "e-7899",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7900" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|4def2669-7bba-7efb-64d3-41b4aaed2bc8",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|4def2669-7bba-7efb-64d3-41b4aaed2bc8",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036687442,
+//     },
+//     "e-7901": {
+//       id: "e-7901",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7902" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|e5695a83-d221-89c8-e625-e600070d5311",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|e5695a83-d221-89c8-e625-e600070d5311",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036694677,
+//     },
+//     "e-7903": {
+//       id: "e-7903",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7904" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|8997c698-f966-e507-7590-17a83ee4915d",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|8997c698-f966-e507-7590-17a83ee4915d",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036703897,
+//     },
+//     "e-7905": {
+//       id: "e-7905",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7906" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|086557b0-634c-ca67-f181-437d4d572a98",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|086557b0-634c-ca67-f181-437d4d572a98",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036710849,
+//     },
+//     "e-7907": {
+//       id: "e-7907",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7908" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|47504bf3-0cf6-7530-0006-1891ef00cee0",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|47504bf3-0cf6-7530-0006-1891ef00cee0",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036717150,
+//     },
+//     "e-7909": {
+//       id: "e-7909",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7910" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|330f0289-f67b-0ad8-8034-de389f67324f",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|330f0289-f67b-0ad8-8034-de389f67324f",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 10,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036723451,
+//     },
+//     "e-7911": {
+//       id: "e-7911",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7912" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|d085625e-d51f-2954-0b96-d0baab7ab015",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|d085625e-d51f-2954-0b96-d0baab7ab015",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036731671,
+//     },
+//     "e-7913": {
+//       id: "e-7913",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7914" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|59ba9d4d-15fd-fabe-9f5e-32bd747e0d29",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|59ba9d4d-15fd-fabe-9f5e-32bd747e0d29",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036736973,
+//     },
+//     "e-7915": {
+//       id: "e-7915",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7916" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|056dbb84-332b-2d57-4525-d7538117a412",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|056dbb84-332b-2d57-4525-d7538117a412",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036741507,
+//     },
+//     "e-7917": {
+//       id: "e-7917",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7918" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd390",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd390",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036749342,
+//     },
+//     "e-7919": {
+//       id: "e-7919",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7920" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd395",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|105aaaf7-a97b-0443-56ec-a61c87dcd395",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036756494,
+//     },
+//     "e-7921": {
+//       id: "e-7921",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7922" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|4f0a59c0-6d14-0872-b466-b039020ec17a",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|4f0a59c0-6d14-0872-b466-b039020ec17a",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036761128,
+//     },
+//     "e-7923": {
+//       id: "e-7923",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7924" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|a1553056-826e-931c-7276-165e2b8afdd7",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|a1553056-826e-931c-7276-165e2b8afdd7",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036776016,
+//     },
+//     "e-7925": {
+//       id: "e-7925",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7926" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|80f9d801-559f-021e-8fba-d2c611d9cde0",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|80f9d801-559f-021e-8fba-d2c611d9cde0",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036782801,
+//     },
+//     "e-7927": {
+//       id: "e-7927",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7928" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|10fbed0a-b4f1-bd32-56a0-9a6f2f7051fc",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|10fbed0a-b4f1-bd32-56a0-9a6f2f7051fc",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036787868,
+//     },
+//     "e-7929": {
+//       id: "e-7929",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7930" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|8a7757b1-ea6b-ed45-ea58-6aa3af932475",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|8a7757b1-ea6b-ed45-ea58-6aa3af932475",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036792003,
+//     },
+//     "e-7931": {
+//       id: "e-7931",
+//       name: "",
+//       animationType: "preset",
+//       eventTypeId: "SCROLL_INTO_VIEW",
+//       action: {
+//         id: "",
+//         actionTypeId: "FADE_EFFECT",
+//         instant: false,
+//         config: { actionListId: "fadeIn", autoStopEventId: "e-7932" },
+//       },
+//       mediaQueries: ["main", "medium", "small", "tiny"],
+//       target: {
+//         id: "63d8fb6b71585956d3c9f7cb|2f542918-ae47-8a41-ca8c-fa1838a83d98",
+//         appliesTo: "ELEMENT",
+//         styleBlockIds: [],
+//       },
+//       targets: [
+//         {
+//           id: "63d8fb6b71585956d3c9f7cb|2f542918-ae47-8a41-ca8c-fa1838a83d98",
+//           appliesTo: "ELEMENT",
+//           styleBlockIds: [],
+//         },
+//       ],
+//       config: {
+//         loop: false,
+//         playInReverse: false,
+//         scrollOffsetValue: 15,
+//         scrollOffsetUnit: "%",
+//         delay: 0,
+//         direction: null,
+//         effectIn: true,
+//       },
+//       createdOn: 1676036800640,
+//     },
+//   },
+//   actionLists: {
+//     "a-8": {
+//       id: "a-8",
+//       title: "Go Top Scrolled Up",
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               id: "a-8-n-3",
+//               actionTypeId: "TRANSFORM_MOVE",
+//               config: {
+//                 delay: 0,
+//                 easing: "",
+//                 duration: 500,
+//                 target: {},
+//                 xValue: 0,
+//                 xUnit: "%",
+//                 yUnit: "PX",
+//                 zUnit: "PX",
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               id: "a-8-n-4",
+//               actionTypeId: "TRANSFORM_MOVE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 400,
+//                 target: {},
+//                 xValue: 200,
+//                 xUnit: "%",
+//                 yUnit: "PX",
+//                 zUnit: "PX",
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//       useFirstGroupAsInitialState: true,
+//       createdOn: 1578588089503,
+//     },
+//     "a-9": {
+//       id: "a-9",
+//       title: "Go Top Scrolled Down",
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               id: "a-9-n-3",
+//               actionTypeId: "TRANSFORM_MOVE",
+//               config: {
+//                 delay: 0,
+//                 easing: "outExpo",
+//                 duration: 600,
+//                 target: {},
+//                 xValue: 0,
+//                 xUnit: "%",
+//                 yUnit: "PX",
+//                 zUnit: "PX",
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//       useFirstGroupAsInitialState: false,
+//       createdOn: 1578588089503,
+//     },
+//     "a-232": {
+//       id: "a-232",
+//       title: "Blog Picture Movement",
+//       continuousParameterGroups: [
+//         {
+//           id: "a-232-p",
+//           type: "MOUSE_X",
+//           parameterLabel: "Mouse X",
+//           continuousActionGroups: [
+//             {
+//               keyframe: 0,
+//               actionItems: [
+//                 {
+//                   id: "a-232-n",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: -80,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//             {
+//               keyframe: 100,
+//               actionItems: [
+//                 {
+//                   id: "a-232-n-2",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: 80,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//           ],
+//         },
+//         {
+//           id: "a-232-p-2",
+//           type: "MOUSE_Y",
+//           parameterLabel: "Mouse Y",
+//           continuousActionGroups: [
+//             {
+//               keyframe: 0,
+//               actionItems: [
+//                 {
+//                   id: "a-232-n-3",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: -80,
+//                     xUnit: "px",
+//                     yUnit: "PX",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//             {
+//               keyframe: 100,
+//               actionItems: [
+//                 {
+//                   id: "a-232-n-4",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: 80,
+//                     xUnit: "px",
+//                     yUnit: "PX",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//           ],
+//         },
+//       ],
+//       createdOn: 1619618556188,
+//     },
+//     "a-342": {
+//       id: "a-342",
+//       title: "Image Animation",
+//       continuousParameterGroups: [
+//         {
+//           id: "a-342-p",
+//           type: "SCROLL_PROGRESS",
+//           parameterLabel: "Scroll",
+//           continuousActionGroups: [
+//             {
+//               keyframe: 0,
+//               actionItems: [
+//                 {
+//                   id: "a-342-n",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: -50,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//                 {
+//                   id: "a-342-n-3",
+//                   actionTypeId: "TRANSFORM_SCALE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: 1,
+//                     yValue: 1,
+//                     locked: true,
+//                   },
+//                 },
+//               ],
+//             },
+//             {
+//               keyframe: 100,
+//               actionItems: [
+//                 {
+//                   id: "a-342-n-2",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: 50,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//                 {
+//                   id: "a-342-n-4",
+//                   actionTypeId: "TRANSFORM_SCALE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: 1.1,
+//                     yValue: 1.1,
+//                     locked: true,
+//                   },
+//                 },
+//               ],
+//             },
+//           ],
+//         },
+//       ],
+//       createdOn: 1653316381304,
+//     },
+//     "a-348": {
+//       id: "a-348",
+//       title: "Button Animation",
+//       continuousParameterGroups: [
+//         {
+//           id: "a-348-p",
+//           type: "MOUSE_X",
+//           parameterLabel: "Mouse X",
+//           continuousActionGroups: [
+//             {
+//               keyframe: 0,
+//               actionItems: [
+//                 {
+//                   id: "a-348-n",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: 10,
+//                     xUnit: "px",
+//                     yUnit: "PX",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//                 {
+//                   id: "a-348-n-2",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: 4,
+//                     xUnit: "px",
+//                     yUnit: "PX",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//             {
+//               keyframe: 100,
+//               actionItems: [
+//                 {
+//                   id: "a-348-n-3",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: -10,
+//                     xUnit: "px",
+//                     yUnit: "PX",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//                 {
+//                   id: "a-348-n-4",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     xValue: -4,
+//                     xUnit: "px",
+//                     yUnit: "PX",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//           ],
+//         },
+//         {
+//           id: "a-348-p-2",
+//           type: "MOUSE_Y",
+//           parameterLabel: "Mouse Y",
+//           continuousActionGroups: [
+//             {
+//               keyframe: 0,
+//               actionItems: [
+//                 {
+//                   id: "a-348-n-5",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: 10,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//                 {
+//                   id: "a-348-n-6",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: 4,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//             {
+//               keyframe: 100,
+//               actionItems: [
+//                 {
+//                   id: "a-348-n-7",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: -10,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//                 {
+//                   id: "a-348-n-8",
+//                   actionTypeId: "TRANSFORM_MOVE",
+//                   config: {
+//                     delay: 0,
+//                     easing: "",
+//                     duration: 500,
+//                     target: {},
+//                     yValue: -4,
+//                     xUnit: "PX",
+//                     yUnit: "px",
+//                     zUnit: "PX",
+//                   },
+//                 },
+//               ],
+//             },
+//           ],
+//         },
+//       ],
+//       createdOn: 1631620999781,
+//     },
+//     "a-437": {
+//       id: "a-437",
+//       title: "Button Line Hover In",
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               id: "a-437-n",
+//               actionTypeId: "TRANSFORM_MOVE",
+//               config: {
+//                 delay: 0,
+//                 easing: "outQuint",
+//                 duration: 500,
+//                 target: {
+//                   useEventTarget: "CHILDREN",
+//                   selector: ".icon-line",
+//                   selectorGuids: ["cd0baca9-081a-588c-111c-152dd8c60206"],
+//                 },
+//                 xValue: 6,
+//                 xUnit: "px",
+//                 yUnit: "PX",
+//                 zUnit: "PX",
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//       useFirstGroupAsInitialState: false,
+//       createdOn: 1625015496555,
+//     },
+//     "a-438": {
+//       id: "a-438",
+//       title: "Button Line Hover Out",
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               id: "a-438-n",
+//               actionTypeId: "TRANSFORM_MOVE",
+//               config: {
+//                 delay: 0,
+//                 easing: "outQuint",
+//                 duration: 500,
+//                 target: {
+//                   useEventTarget: "CHILDREN",
+//                   selector: ".icon-line",
+//                   selectorGuids: ["cd0baca9-081a-588c-111c-152dd8c60206"],
+//                 },
+//                 xValue: 0,
+//                 xUnit: "px",
+//                 yUnit: "PX",
+//                 zUnit: "PX",
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//       useFirstGroupAsInitialState: false,
+//       createdOn: 1625015496555,
+//     },
+//     pop: {
+//       id: "pop",
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "outQuart",
+//                 duration: 250,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 0.7500000000000001,
+//                 yValue: 0.7500000000000001,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "outElastic",
+//                 duration: 1000,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1,
+//                 yValue: 1,
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//     },
+//     pulse: {
+//       id: "pulse",
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1.1,
+//                 yValue: 1.1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1,
+//                 yValue: 1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1.1,
+//                 yValue: 1.1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1,
+//                 yValue: 1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1.1,
+//                 yValue: 1.1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1,
+//                 yValue: 1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1.1,
+//                 yValue: 1.1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1,
+//                 yValue: 1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1.1,
+//                 yValue: 1.1,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_SCALE",
+//               config: {
+//                 delay: 0,
+//                 easing: "ease",
+//                 duration: 100,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 1,
+//                 yValue: 1,
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//     },
+//     slideInBottom: {
+//       id: "slideInBottom",
+//       useFirstGroupAsInitialState: true,
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "STYLE_OPACITY",
+//               config: {
+//                 delay: 0,
+//                 duration: 0,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 value: 0,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_MOVE",
+//               config: {
+//                 delay: 0,
+//                 duration: 0,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 0,
+//                 yValue: 100,
+//                 xUnit: "PX",
+//                 yUnit: "PX",
+//                 zUnit: "PX",
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "TRANSFORM_MOVE",
+//               config: {
+//                 delay: 0,
+//                 easing: "outQuart",
+//                 duration: 1000,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 xValue: 0,
+//                 yValue: 0,
+//                 xUnit: "PX",
+//                 yUnit: "PX",
+//                 zUnit: "PX",
+//               },
+//             },
+//             {
+//               actionTypeId: "STYLE_OPACITY",
+//               config: {
+//                 delay: 0,
+//                 easing: "outQuart",
+//                 duration: 1000,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 value: 1,
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//     },
+//     fadeIn: {
+//       id: "fadeIn",
+//       useFirstGroupAsInitialState: true,
+//       actionItemGroups: [
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "STYLE_OPACITY",
+//               config: {
+//                 delay: 0,
+//                 duration: 0,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 value: 0,
+//               },
+//             },
+//           ],
+//         },
+//         {
+//           actionItems: [
+//             {
+//               actionTypeId: "STYLE_OPACITY",
+//               config: {
+//                 delay: 0,
+//                 easing: "outQuart",
+//                 duration: 1000,
+//                 target: {
+//                   id: "N/A",
+//                   appliesTo: "TRIGGER_ELEMENT",
+//                   useEventTarget: true,
+//                 },
+//                 value: 1,
+//               },
+//             },
+//           ],
+//         },
+//       ],
+//     },
+//   },
+//   site: {
+//     mediaQueries: [
+//       { key: "main", min: 992, max: 10000 },
+//       { key: "medium", min: 768, max: 991 },
+//       { key: "small", min: 480, max: 767 },
+//       { key: "tiny", min: 0, max: 479 },
+//     ],
+//   },
+// });
 
-Webflow.require("commerce") &&
-  Webflow.require("commerce").init({
-    siteId: "63d8fb6b7158592f02c9f7cc",
-    apiUrl: "https://render.webflow.com",
-  });
+// Webflow.require("commerce") &&
+//   Webflow.require("commerce").init({
+//     siteId: "63d8fb6b7158592f02c9f7cc",
+//     apiUrl: "https://render.webflow.com",
+//   });

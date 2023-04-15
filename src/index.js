@@ -17,6 +17,7 @@ import ErrorPage from './util/components/ErrorPage/ErrorPage';
 
 import './bootstrap.css'
 import './index.css';
+import Posting from './pages/Posting/Posting';
 
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "contact/",
         element: <Contact />,
+      },
+      {
+        path: "posting/",
+        element: <Posting />,
       },
     ],
   },
