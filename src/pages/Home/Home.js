@@ -7,7 +7,7 @@ import Download from './Download/Download'
 
 function Home() {
   return (
-    <div id="Top" class="page-content">
+    <div id="Top" className="page-content">
     <Hero />
     <Step />
     <How />
