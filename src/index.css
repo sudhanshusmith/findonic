@@ -6,7 +6,26 @@
   border: 2px solid blue;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+
+.label-text{
+  padding: 0;
+}
+
+.label-button{
+  padding: 0;
+}
+
+.button-label{
+  padding: 0;
+}
+
+.arrow-wrapper{
+  padding: 0;
+}
 
 /* Generated on: Mon Feb 27 2023 23:19:33 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
@@ -57,6 +76,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #b26cf1;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -1761,7 +1781,7 @@ textarea.w-select {
   margin-right: auto;
 }
 .w-nav-link.w--current {
-  color: #0082f3;
+  color: #8f8f8f;
 }
 .w-nav-menu {
   position: relative;

@@ -8,6 +8,9 @@ import linkedin from '../../images/socialIcons/linkedin2.jpg'
 import whatsapp from '../../images/socialIcons/whatsapp.jpg'
 import fullLogo from '../../images/logo/finonicFull.png'
 import longLogo from '../../images/logo/findonicLogo2.png'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
 
@@ -67,15 +70,27 @@ function Footer() {
                             <div className="footer-title">Social</div>
                             <div className="social-wrapper left">
                                 <a href="https://www.instagram.com/findonic4u/" target="_blank" className="social-icon-footer w-inline-block">
-                                    <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbbf034fc1f7_instagram.svg" loading="lazy" width="20" alt=""/>
+                                    {/* <img src="https://assets.website-files.com/62f12c77027bfb4b634fc1b9/62f12c77027bfbbf034fc1f7_instagram.svg" loading="lazy" width="20" alt=""/> */}
+                                    <InstagramIcon sx={{
+                                        color: 'gray'
+                                    }}
+                                    />
                                 </a>
                                
                                 <a href="https://www.linkedin.com/company/findonic/" target="_blank" className="social-icon-footer w-inline-block">
                                     {/* <FontAwesomeIcon icon={faLinkedIn} /> */}
-                                    <img src={linkedin}  width="22" alt=""/>
+                                    {/* <img src={linkedin}  width="22" alt=""/> */}
+                                    <LinkedInIcon sx={{
+                                        color: 'gray'
+                                    }}
+                                    />
                                 </a>
                                 <a href="https://chat.whatsapp.com/DXslO152avbEzcnuZJIh8C" target="_blank" className="social-icon-footer w-inline-block">
-                                    <img src={whatsapp} width="22" alt="kk"/>
+                                    <WhatsAppIcon sx={{
+                                        color: 'gray'
+                                    }}
+                                    />
+                                    {/* <img src={whatsapp} width="22" alt="kk"/> */}
                                 </a>
                             </div>
                         </div>

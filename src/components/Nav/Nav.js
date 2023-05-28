@@ -100,15 +100,15 @@ function Navbar() {
             href="https://chat.whatsapp.com/DXslO152avbEzcnuZJIh8C"
             className="button-line-link hide-mobile w-inline-block"
           >
-            <div>Join US</div>
+            <div className="p-0">Join US</div>
           </a>
           <a
             href="https://wa.me/+917870565464"
             className="button-arrow-link hide-landscape w-inline-block"
           >
-            <div className="button-label">
-              <div className="label-button">Get in Touch</div>
-              <div className="arrow-wrapper">
+            <div className="button-label ">
+              <div className="label-button ">Get in Touch</div>
+              <div className="arrow-wrapper p-0">
                 <img
                   src="https://assets.website-files.com/63d8fb6b7158592f02c9f7cc/63e25424962bf135c7305306_next.svg"
                   loading="lazy"
