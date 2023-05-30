@@ -52,9 +52,9 @@ function News() {
 
           {!isLoading &&
             loadedPosts &&
-            loadedPosts.map((item) => (
+            loadedPosts.slice(0).reverse().map((item) => (
               
-              <Post title={item.title} description={ item.description} />
+              <Post title={item.title} description={ item.description} image={item.image} />
               ) )}
         </div>
 
