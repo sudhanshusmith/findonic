@@ -3,6 +3,7 @@ import { useHttpClient } from "../../util/components/hooks/http-hook";
 
 import ErrorModal from "../../util/components/ErrorModal";
 import Post from "./Post";
+import findoNews from '../../images/logo/findonews.png';
 import { json } from "react-router-dom";
 
 function News() {
@@ -36,8 +37,11 @@ function News() {
           <h1>{error}</h1>
         </div>
       )} */}
-
-      <div className="grid grid-cols-12  mt-16">
+     <div className="flex items-end mt-24 mb-6">
+     <img src={findoNews} className=" w-screen shadow-xl">
+      </img>
+     </div>
+      <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-3 "></div>
 
         {/* Post Section  */}
