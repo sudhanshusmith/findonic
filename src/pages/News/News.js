@@ -19,7 +19,7 @@ function News() {
     const fetchPosts = async () => {
       try {
         const responseData = await sendRequest(
-          "http://localhost:5000/"
+          "https://findonic-backend.vercel.app/"
         );
 
         setLoadedPosts(responseData.posts);

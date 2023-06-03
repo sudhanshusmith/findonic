@@ -27,7 +27,7 @@ function Posting() {
     console.log("Form data", values);
     try {
       await sendRequest(
-        `http://localhost:5000/`,
+        `https://findonic-backend.vercel.app/`,
         'POST',
         JSON.stringify(values),
         {
