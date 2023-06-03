@@ -19,7 +19,7 @@ function News() {
     const fetchPosts = async () => {
       try {
         const responseData = await sendRequest(
-          "https://findonic-backend.vercel.app/"
+          "http://localhost:5000/"
         );
 
         setLoadedPosts(responseData.posts);
@@ -58,7 +58,7 @@ function News() {
             loadedPosts &&
             loadedPosts.slice(0).reverse().map((item) => (
               
-              <Post title={item.title} description={ item.description} image={item.image} />
+              <Post title={item.title} description={ item.description} image={item.image} postDate={item.postDate} />
               ) )}
         </div>
 

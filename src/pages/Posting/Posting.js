@@ -8,7 +8,8 @@ const initialValues = {
   title: "",
   description: "",
   image: "",
-  category: "",
+  // category: "Tech",
+  // date: "06-06-2023"
 };
 
 
@@ -26,7 +27,7 @@ function Posting() {
     console.log("Form data", values);
     try {
       await sendRequest(
-        `https://findonic-backend.vercel.app/`,
+        `http://localhost:5000/`,
         'POST',
         JSON.stringify(values),
         {

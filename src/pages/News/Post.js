@@ -10,7 +10,7 @@ function Post(props) {
           <p className="my-0 mx-2 font-semibold leading-4 text-gray-800">
             Findonic <br></br>
             <span className="text-xs font-medium text-gray-600">
-              30 June 2023
+              {props.postDate}
             </span>
           </p>
         </div>
@@ -26,9 +26,9 @@ function Post(props) {
         <h6 className="mx-3 md:mx-4 mt-2 md:mt-3 mb-2 text-xl text-gray-800 font-bold">
           {props.title}{" "}
         </h6>
-        <p className="mx-3 md:mx-4 text-gray-700 font-normal">
-          {props.description}
-        </p>
+        <div className="mx-3 md:mx-4 text-gray-700 font-normal">
+        {props.description}
+        </div>
       </div>
     </div>
   );
