@@ -26,9 +26,9 @@ function Navbar() {
       data-easing="ease"
       data-easing2="ease"
       role="banner"
-      className="nav-component w-nav"
+      className="nav-component w-nav "
     >
-      <div className="nav-container w-container">
+      <div className="nav-container w-container ">
         <div
           id="w-node-b67e7efd-255e-321b-f527-21631dbc0c72-1dbc0c70"
           className="first-element"

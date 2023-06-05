@@ -28,7 +28,20 @@
 }
 
 /* Posting CSS */
+select{
+  width: 250px;
+  padding: 10px;
+  border: 2px solid rgb(175, 174, 174);
+  border-radius: 5px;
+}
 
+select > option{
+  display: flex;
+  color: black;
+  font-size: 18px;
+
+  /* block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white */
+}
 /* Generated on: Mon Feb 27 2023 23:19:33 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 

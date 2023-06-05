@@ -14,6 +14,7 @@ import About from './pages/About/About';
 import News from './pages/News/News';
 import Contact from './pages/Contact/Contact';
 import RootLayout from './pages/RootLayout/RootLayout';
+import FormikContainer from './pages/Posting/FormikContainer';
 import ErrorPage from './util/components/ErrorPage/ErrorPage';
 
 import './bootstrap.css'
@@ -45,7 +46,7 @@ const router = createBrowserRouter([
       },
       {
         path: "posting/",
-        element: <Posting />,
+        element: <FormikContainer />,
       },
     ],
   },

@@ -4,7 +4,7 @@ import postedLogo from "../../images/logo/filled.png";
 function Post(props) {
   return (
     <div className="flex justify-center">
-      <div className="pb-4 shadow-lg my-6 mx-2 md:w-10/12  rounded-lg border-2 border-gray-200">
+      <div className="pb-4 shadow-lg my-6 mx-2 w-full md:w-10/12  rounded-lg border-2 border-gray-200">
         <div className="flex flex-row mx-3 md:mx-4 mt-4 p-0 items-center">
           <img src={postedLogo} className="w-10 h-10 rounded-full"></img>
           <p className="my-0 mx-2 font-semibold leading-4 text-gray-800">

@@ -9,7 +9,6 @@ const initialValues = {
   description: "",
   image: "",
   // category: "Tech",
-  // date: "06-06-2023"
 };
 
 
@@ -17,8 +16,6 @@ const initialValues = {
 const validationSchema = Yup.object({
   title: Yup.string().required("This Feild is Required"),
   description: Yup.string().required("This Feild is Required"),
-  // imageUrl: Yup.string().required("This Feild is Required"),
-  // tag: Yup.string().required("This Feild is Required"),
 });
 
 function Posting() {
