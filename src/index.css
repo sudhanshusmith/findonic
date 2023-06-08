@@ -48,6 +48,11 @@
     background: #999;  
     }
 
+
+    .scroll-width{
+      width: 95%;
+    }
+
 /* Posting CSS */
 select{
   width: 250px;

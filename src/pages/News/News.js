@@ -69,7 +69,7 @@ function News() {
             <p className=" px-4 text-purple-800 bg-purple-200 py-3 rounded-xl mx-3 text-center text-lg">
               Filter Post by Category:
             </p>
-              <ul className="px-4 h-60 overflow-y-auto">
+              <ul className="px-4 h-64 scroll-width overflow-y-auto">
               {category.map((item) => (
                 <TabNavItem
                   id={item.value}
