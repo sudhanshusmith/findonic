@@ -65,11 +65,11 @@ function News() {
       </div>
       <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-3 hidden md:block border- border-purple-700">
-          <div className="my-6  sticky top-20 z-10">
+          <div className="my-6  sticky top-20 z-10  ml-4">
             <p className=" px-4 text-purple-800 bg-purple-200 py-3 rounded-xl mx-3 text-center text-lg">
               Filter Post by Category:
             </p>
-            <ul className="px-4 h-96 overflow-y-auto">
+              <ul className="px-4 h-60 overflow-y-auto">
               {category.map((item) => (
                 <TabNavItem
                   id={item.value}
