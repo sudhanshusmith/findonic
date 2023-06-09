@@ -36,7 +36,7 @@ function Post(props) {
         </h6>
         <div className="mx-3 md:mx-4 text-gray-700 font-normal entry-footer excerpt">
             {abcd.map(item => (
-              <div>{item}</div>
+              <div>{item}<br></br></div>
             ))}
         </div>
       </div>
