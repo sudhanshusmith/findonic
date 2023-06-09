@@ -4,7 +4,6 @@ import { useHttpClient } from "../../util/components/hooks/http-hook";
 import ErrorModal from "../../util/components/ErrorModal";
 import Post from "./Post";
 import findoNews from "../../images/logo/findonews.png";
-import { json } from "react-router-dom";
 import Right from "./Right";
 import TabNavItem from "./TabNavItem";
 
@@ -38,12 +37,49 @@ function News() {
     { key: "Travel & Tourism", value: "travel" },
   ];
 
+  const categoryFullName = {
+    anc: "Art & Culture",
+    ainml: "AI & ML",
+    anm: "Automotive & Mobility",
+    ecom: "E-Commerce & D2C",
+    edu: "EdTech",
+    fin: "FinTech",
+    fna: "Food & Agriculture",
+    gne: "Gaming & Esports",
+    hnb: "HealthCare & Bio-Tech",
+    scam: "Scam in Companies",
+    csr: "Social  & CSR",
+    aero: "Space & Aerospace",
+    sne: "Startups & Entrepreneurship",
+    snc: "Sustainability & Clean-Tech",
+    tech: "Technology & Innovation",
+    travel: "Travel & Tourism",
+  };
+  const categoryColor = {
+    anc: "purple",
+    ainml: "blue",
+    anm: "yellow",
+    ecom: "yellow",
+    edu: "green",
+    fin: "purple",
+    fna: "green",
+    gne: "blue",
+    hnb: "green",
+    scam: "red",
+    csr: "green",
+    aero: "blue",
+    sne: "yellow",
+    snc: "green",
+    tech: "blue",
+    travel: "purple",
+  };
+
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const responseData = await sendRequest("https://findonic-backend.vercel.app/");
-        // var temp = JSON.parse(responseData)
-        console.log("Checking", responseData)
+        const responseData = await sendRequest(
+          "https://findonic-backend.vercel.app/"
+        );
         setLoadedPosts(responseData.posts);
       } catch (err) {}
     };
@@ -66,13 +102,14 @@ function News() {
       </div>
       <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-3 hidden md:block border- border-purple-700">
-          <div className="my-6  sticky top-20 z-10  ml-4">
+          <div className="my-3  sticky top-20 z-10  ml-4">
             <p className=" px-4 text-purple-800 bg-purple-200 py-3 rounded-xl mx-3 text-center text-lg">
               Filter Post by Category:
             </p>
-              <ul className="px-4 h-64 scroll-width overflow-y-auto">
+            <ul className="px-4 h-64 scroll-width overflow-y-auto">
               {category.map((item) => (
                 <TabNavItem
+                  key={item.value}
                   id={item.value}
                   title={item.key}
                   activeTab={activeTab}
@@ -101,10 +138,13 @@ function News() {
               .reverse()
               .map((item) => (
                 <Post
-                title={item.title}
-                description={item.description}
-                image={item.image}
-                postDate={item.postDate}
+                  key={item.id}
+                  title={item.title}
+                  description={item.description}
+                  image={item.image}
+                  postDate={item.postDate}
+                  category={categoryFullName[item.category]}
+                  color = {categoryColor[item.category]}
                 />
               ))}
           {!isLoading &&
@@ -116,10 +156,13 @@ function News() {
               .filter((apost) => apost.category == activeTab)
               .map((item) => (
                 <Post
-                title={item.title}
-                description={item.description}
-                image={item.image}
-                postDate={item.postDate}
+                  key={item.id}
+                  title={item.title}
+                  description={item.description}
+                  image={item.image}
+                  postDate={item.postDate}
+                  category={categoryFullName[item.category]}
+                  color = {categoryColor[item.category]}
                 />
               ))}
         </div>

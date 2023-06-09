@@ -8,7 +8,7 @@ function Select (props) {
     <div className='px-4  w-full sm:w-8/12'>
       <label htmlFor={name}>{label}</label>
       <Field as='select' id={name} name={name} {...rest}>
-        {options.map(option => {
+        {options?.map(option => {
           return (
             <option key={option.value} value={option.value}>
               {option.key}

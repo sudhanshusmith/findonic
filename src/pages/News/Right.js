@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const data = [
   {
+    id: 1,
     name: "Nike",
     image: nike,
     website: "https://www.nike.com/in/",
@@ -12,6 +13,7 @@ const data = [
     callToActionText: "Website"
   },
   {
+    id: 2,
     name: "Nike",
     image: nike,
     website: "https://www.nike.com/in/",
@@ -26,7 +28,7 @@ function Right() {
     <>
      
        {data.map(item => (
-        <div  className="my-6 mb-2 shadow-lg px-3 pt-3 mr-3 rounded-xl border-2 border-gray-200 ">
+        <div key={item.id} className="my-3 mb-2 shadow-md px-3 pt-3 mr-3 rounded-xl border-2 border-gray-200 ">
         <p className="">
           Sponsored
           <span className="float-right font-medium">

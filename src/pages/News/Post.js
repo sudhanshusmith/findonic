@@ -1,27 +1,66 @@
 import React from "react";
 import postedLogo from "../../images/logo/filled.png";
+import ReadMore from "./ReadMore";
 
 function Post(props) {
-  // {console.log(JSON.parse(props))}
-  // const temp = JSON.parse(props);
-  // {console.log(temp)}
-  {console.log(typeof(props))}
-  {console.log(props.description)}
-  // {console.log((props))}
-  var abcd = props.description.split('\n')
+  function textColor(status) {
+    switch (status) {
+      case "blue":
+        return "rgb(29 78 216)";
+      case "purple":
+        return "rgb(126 34 206)";
+      case "yellow":
+        return "rgb(161 98 7)";
+      case "green":
+        return "rgb(21 128 61)";
+      case "red":
+        return "rgb(185 28 28)";
+      default:
+        return "";
+    }
+  }
+  function bgColor(status) {
+    switch (status) {
+      case "blue":
+        return "rgb(191 219 254)";
+      case "purple":
+        return "rgb(233 213 255)";
+      case "yellow":
+        return "rgb(254 240 138)";
+      case "green":
+        return "rgb(187 247 208)";
+      case "red":
+        return "rgb(254 215 170)";
+      default:
+        return "";
+    }
+  }
+
   return (
     <div className="flex justify-center">
-      <div className="pb-4 shadow-lg my-6 mx-2 w-full md:w-10/12  rounded-lg border-2 border-gray-200">
-        <div className="flex flex-row mx-3 md:mx-4 mt-4 p-0 items-center">
-          <img src={postedLogo} className="w-10 h-10 rounded-full"></img>
-          <p className="my-0 mx-2 font-semibold leading-4 text-gray-800">
-            Findonic <br></br>
-            <span className="text-xs font-medium text-gray-600">
-              {props.postDate}
+      <div className="pb-4 shadow-md my-3 mx-2 w-full md:w-10/12  rounded-lg border-2 border-gray-200">
+        <div className=" mx-3 md:mx-4 mt-4 p-0  border- border-purple-700">
+          <div className="flex flex-row items-center">
+            <img src={postedLogo} className="w-10 h-10 rounded-full"></img>
+            <p className="my-0 mx-2 font-semibold leading-4 text-gray-800 border- border-purple-900 w-full">
+              Findonic
+              <br></br>
+              <span className="text-xs font-medium text-gray-900">
+                {props.postDate}
+              </span>
+            </p>
+            <span
+              style={{
+                color: textColor(props.color),
+                background: bgColor(props.color),
+              }}
+              className="float-right rounded-3xl py-1 px-3 w-full"
+            >
+              {props.category}
             </span>
-          </p>
+          </div>
         </div>
-        
+
         {props.image ? (
           <div className="flex justify-center p-0">
             <img
@@ -35,9 +74,7 @@ function Post(props) {
           {props.title}{" "}
         </h6>
         <div className="mx-3 md:mx-4 text-gray-700 font-normal entry-footer excerpt">
-            {abcd.map(item => (
-              <div>{item}<br></br></div>
-            ))}
+          <ReadMore description={props.description}></ReadMore>
         </div>
       </div>
     </div>
