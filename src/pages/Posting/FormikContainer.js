@@ -57,7 +57,7 @@ function FormikContainer() {
 
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
   const onSubmit = async (values, submitProps) => {
-    console.log("Form data", values);
+    console.log("Form data 3", values);
     try {
       await sendRequest(
         `https://findonic-backend.vercel.app/`,

@@ -10,6 +10,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.entry-footer .excerpt p {
+  word-wrap: break-word;
+}
 
 .label-text{
   padding: 0;

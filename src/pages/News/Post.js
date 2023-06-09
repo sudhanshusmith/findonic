@@ -2,6 +2,13 @@ import React from "react";
 import postedLogo from "../../images/logo/filled.png";
 
 function Post(props) {
+  // {console.log(JSON.parse(props))}
+  // const temp = JSON.parse(props);
+  // {console.log(temp)}
+  {console.log(typeof(props))}
+  {console.log(props.description)}
+  // {console.log((props))}
+  var abcd = props.description.split('\n')
   return (
     <div className="flex justify-center">
       <div className="pb-4 shadow-lg my-6 mx-2 w-full md:w-10/12  rounded-lg border-2 border-gray-200">
@@ -14,6 +21,7 @@ function Post(props) {
             </span>
           </p>
         </div>
+        
         {props.image ? (
           <div className="flex justify-center p-0">
             <img
@@ -26,8 +34,10 @@ function Post(props) {
         <h6 className="mx-3 md:mx-4 mt-2 md:mt-3 mb-2 text-xl text-gray-800 font-bold">
           {props.title}{" "}
         </h6>
-        <div className="mx-3 md:mx-4 text-gray-700 font-normal">
-        {props.description}
+        <div className="mx-3 md:mx-4 text-gray-700 font-normal entry-footer excerpt">
+            {abcd.map(item => (
+              <div>{item}</div>
+            ))}
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ const validationSchema = Yup.object({
 function Posting() {
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
   const onSubmit = async (values, submitProps) => {
-    console.log("Form data", values);
+    console.log("Form data 2", values);
     try {
       await sendRequest(
         `https://findonic-backend.vercel.app/`,

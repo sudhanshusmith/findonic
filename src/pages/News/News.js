@@ -42,7 +42,8 @@ function News() {
     const fetchPosts = async () => {
       try {
         const responseData = await sendRequest("https://findonic-backend.vercel.app/");
-
+        // var temp = JSON.parse(responseData)
+        console.log("Checking", responseData)
         setLoadedPosts(responseData.posts);
       } catch (err) {}
     };
@@ -100,10 +101,10 @@ function News() {
               .reverse()
               .map((item) => (
                 <Post
-                  title={item.title}
-                  description={item.description}
-                  image={item.image}
-                  postDate={item.postDate}
+                title={item.title}
+                description={item.description}
+                image={item.image}
+                postDate={item.postDate}
                 />
               ))}
           {!isLoading &&
@@ -115,10 +116,10 @@ function News() {
               .filter((apost) => apost.category == activeTab)
               .map((item) => (
                 <Post
-                  title={item.title}
-                  description={item.description}
-                  image={item.image}
-                  postDate={item.postDate}
+                title={item.title}
+                description={item.description}
+                image={item.image}
+                postDate={item.postDate}
                 />
               ))}
         </div>
