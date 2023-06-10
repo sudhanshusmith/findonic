@@ -3,22 +3,7 @@ import postedLogo from "../../images/logo/filled.png";
 import ReadMore from "./ReadMore";
 
 function Post(props) {
-  function textColor(status) {
-    switch (status) {
-      case "blue":
-        return "rgb(29 78 216)";
-      case "purple":
-        return "rgb(126 34 206)";
-      case "yellow":
-        return "rgb(161 98 7)";
-      case "green":
-        return "rgb(21 128 61)";
-      case "red":
-        return "rgb(185 28 28)";
-      default:
-        return "";
-    }
-  }
+  
   function bgColor(status) {
     switch (status) {
       case "blue":
@@ -51,10 +36,9 @@ function Post(props) {
             </p>
             <span
               style={{
-                color: textColor(props.color),
                 background: bgColor(props.color),
               }}
-              className="float-right rounded-3xl py-1 px-3 w-full"
+              className="float-right rounded-lg py-2 px-3 flex justify-center items-center"
             >
               {props.category}
             </span>
