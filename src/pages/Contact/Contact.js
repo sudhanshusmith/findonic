@@ -287,7 +287,7 @@ function Contact() {
             <p class="subhead">
               A comprehensive FAQ section that provides
               <span class="gray-text">
-                quick and easy access to all the information you need to
+                &nbsp;quick and easy access to all the information you need to
                 understand our product.
               </span>
             </p>
@@ -296,60 +296,59 @@ function Contact() {
                 <div class="faq-content">
                   <div class="question-left">
                     <p class="subhead third">
-                      What is the process for getting started with your product?
+                      How does Findonic help entrepreneurs in finding the right
+                      co-founder?
                     </p>
                   </div>
                   <p id="w-node-_903dd4cf-980a-e280-7439-d66ea98bd890-85c9f7e5">
-                    This section will cover the steps needed to start using your
-                    product, from signing up to customizing your experience.
+                  Findonic assists entrepreneurs in finding the ideal co-founder by facilitating connections through their platform and matching algorithms.
+
                   </p>
                 </div>
                 <div class="faq-content">
                   <div class="question-left">
                     <p class="subhead third">
-                      How do I troubleshoot common issues?
+                      What makes Findonic's platform unique in connecting
+                      entrepreneurs with like-minded individuals?
                     </p>
                   </div>
                   <p id="w-node-_19168c62-32c0-221d-ba1f-9c8ef35aa22b-85c9f7e5">
-                    This section will provide helpful information and resources
-                    for resolving common problems that customers may encounter
-                    while using your product.
+                  Findonic's unique platform utilizes advanced matching algorithms to connect like-minded individuals.
                   </p>
                 </div>
                 <div class="faq-content">
                   <div class="question-left">
                     <p class="subhead third">
-                      What features and benefits does your product offer?
+                      Can you explain the process of joining the Findonic
+                      community and finding a co-founder?
                     </p>
                   </div>
                   <p id="w-node-_6c4e2369-f61d-9800-5044-42ceaaa9a911-85c9f7e5">
-                    This section will highlight the key features and benefits of
-                    your product, and how they can help customers achieve their
-                    goals.
+                  Joining the Findonic community involves creating a detailed profile outlining your startup idea, goals, and desired co-founder qualities. From there, entrepreneurs can explore and connect with potential co-founders who align with their criteria.
+
                   </p>
                 </div>
                 <div class="faq-content">
                   <div class="question-left">
                     <p class="subhead third">
-                      How does your product compare to others on the market?
+                      Besides finding a co-founder, what other benefits does
+                      Findonic offer to entrepreneurs?
                     </p>
                   </div>
                   <p id="w-node-efdd40c3-fdb4-5ce5-858c-b1f2c89d6748-85c9f7e5">
-                    This section will provide an overview of how your product
-                    stacks up against similar products available, and why
-                    customers should choose your product.
+                  In addition to finding a co-founder, Findonic provides a range of benefits to entrepreneurs. They offer resources, support, and networking opportunities to help build a strong team and secure funding for startup ventures.
+
                   </p>
                 </div>
                 <div class="faq-content">
                   <div class="question-left">
                     <p class="subhead third">
-                      How can I receive support and assistance?
+                      How does Findonic support entrepreneurs in securing
+                      funding for their startup ventures?
                     </p>
                   </div>
                   <p id="w-node-_504039b9-b056-ed93-a7b8-4b5c1d728bbb-85c9f7e5">
-                    This section will provide information on the various ways
-                    customers can reach out for support and assistance,
-                    including email, phone, chat, and more.
+                  Findonic assists entrepreneurs in securing funding by providing valuable guidance, connecting them with potential investors, and offering insights into effective fundraising strategies. Through their extensive network and industry expertise, Findonic enhances entrepreneurs' chances of obtaining the necessary capital for their startup's success.
                   </p>
                 </div>
               </div>
