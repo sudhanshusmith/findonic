@@ -20,23 +20,17 @@ function FormikContainer() {
 
   const dropdownOptions = [
     { key: "Select an option", value: "" },
-    { key: "Art & Culture", value: "anc" },
-    { key: "AI & ML", value: "ainml" },
+    { key: "Tech", value: "tech" },
     { key: "Automotive & Mobility", value: "anm" },
     { key: "E-Commerce & D2C", value: "ecom" },
     { key: "EdTech", value: "edu" },
     { key: "FinTech", value: "fin" },
-    { key: "Food & Agriculture", value: "fna" },
+    { key: "AgroTech", value: "atech" },
     { key: "Gaming & Esports", value: "gne" },
-    { key: "HealthCare & Bio-Tech", value: "hnb" },
+    { key: "HealthTech", value: "htech" },
     { key: "Scam in Companies", value: "scam" },
-    { key: "Social  & CSR", value: "csr" },
-    { key: "Space & Aerospace", value: "aero" },
-    { key: "Startups & Entrepreneurship", value: "sne" },
-    { key: "Sustainability & Clean-Tech", value: "snc" },
-    { key: "Technology & Innovation", value: "tech" },
-    { key: "Travel & Tourism", value: "travel" },
-    
+    { key: "Fundings", value: "fundings" },
+    { key: "Blockchain", value: "blockchain" },
   ];
 
   const initialValues = {
