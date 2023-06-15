@@ -27,21 +27,22 @@ function News() {
     { key: "AgroTech", value: "atech" },
     { key: "Gaming & Esports", value: "gne" },
     { key: "HealthTech", value: "htech" },
+    { key: "Scam in Companies", value: "scam" },
     { key: "Fundings", value: "fundings" },
     { key: "Blockchain", value: "blockchain" },
   ];
 
   const categoryFullName = {
-    ecom: "E-Commerce & D2C",
+    ecom: "E-Commerce",
     edu: "EdTech",
     fin: "FinTech",
     atech: "AgroTech",
-    gne: "Gaming & Esports",
+    gne: "Gaming",
     htech: "HealthTech",
-    scam: "Scam in Companies",
+    scam: "Scam",
     fundings: "Fundings",
     blockchain: "Blockchain",
-    anm: "Automotive & Mobility",
+    anm: "Automobile",
     tech: "Tech",
   };
   const categoryColor = {
