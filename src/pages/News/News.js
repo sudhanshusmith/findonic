@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHttpClient } from "../../util/components/hooks/http-hook";
-// import Loader from "react-js-loader";
+import Loader from "react-js-loader";
 
 import ErrorModal from "../../util/components/ErrorModal";
 import Post from "./Post";
@@ -86,7 +86,9 @@ function News() {
           className=" w-screen h-16 object-cover object-center shadow-xl"
         ></img>
       </div>
-      <p className="text-center">Note: This Page only shows latest 5 News in Each Category.</p>
+      <p className="text-center">
+        Note: This Page only shows latest 5 News in Each Category.
+      </p>
       <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-3 hidden md:block border- border-purple-700">
           <div className="my-3  sticky top-20 z-10  ml-4">
@@ -112,7 +114,13 @@ function News() {
           {isLoading ||
             (!loadedPosts && (
               <div className="flex flex-col my-28 items-center  h-screen">
-              // <Loader type="box-rectangular" bgColor={"rgb(107 33 168)"} title={""} color={''} size={100} />
+                <Loader
+                  type="box-rectangular"
+                  bgColor={"rgb(107 33 168)"}
+                  title={""}
+                  color={""}
+                  size={100}
+                />
                 <h2>Loading Posts....</h2>
                 <p>Please hang on.</p>
               </div>
@@ -124,7 +132,7 @@ function News() {
             loadedPosts
               .slice(0)
               .reverse()
-              .slice(0,5)
+              .slice(0, 5)
               .map((item) => (
                 <Post
                   key={item.id}
@@ -134,8 +142,8 @@ function News() {
                   image={item.image}
                   postDate={item.postDate}
                   category={categoryFullName[item.category]}
-                  color = {categoryColor[item.category]}
-                  readMoreEnabled = {true}
+                  color={categoryColor[item.category]}
+                  readMoreEnabled={true}
                   expandable={true}
                 />
               ))}
@@ -146,7 +154,7 @@ function News() {
               .slice(0)
               .reverse()
               .filter((apost) => apost.category == activeTab)
-              .slice(0,5)
+              .slice(0, 5)
               .map((item) => (
                 <Post
                   key={item.id}
@@ -156,8 +164,8 @@ function News() {
                   image={item.image}
                   postDate={item.postDate}
                   category={categoryFullName[item.category]}
-                  color = {categoryColor[item.category]}
-                  readMoreEnabled = {true}
+                  color={categoryColor[item.category]}
+                  readMoreEnabled={true}
                   expandable={true}
                 />
               ))}
