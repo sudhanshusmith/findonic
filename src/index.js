@@ -20,6 +20,7 @@ import ErrorPage from './util/components/ErrorPage/ErrorPage';
 import './bootstrap.css'
 import './index.css';
 import Posting from './pages/Posting/Posting';
+import IndividualNews from './pages/IndividualNews/IndividualNews';
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "news/",
         element: <News />,
+      },
+      {
+        path: "news/:id",
+        element: <IndividualNews />,
       },
       {
         path: "contact/",

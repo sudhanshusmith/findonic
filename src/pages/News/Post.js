@@ -1,9 +1,22 @@
 import React from "react";
 import postedLogo from "../../images/logo/filled.png";
 import ReadMore from "./ReadMore";
+import ZoomOutMapIcon from "@mui/icons-material/ZoomOutMap";
+import ShareIcon from "@mui/icons-material/Share";
+import { Link } from "react-router-dom";
+import copy from "copy-to-clipboard";
 
 function Post(props) {
-  
+  const id = props.id;
+  console.log(id);
+  const path = "/news/" + id;
+  const postURL = "https://www.findonic.com" + path;
+
+  const copyToClipboard = () => {
+    copy(postURL);
+    alert(`Post URL has been copied Successfully!`);
+  };
+
   function bgColor(status) {
     switch (status) {
       case "blue":
@@ -42,6 +55,21 @@ function Post(props) {
             >
               {props.category}
             </span>
+            {props.expandable ? (
+              <Link to={path}>
+                <span className="px-2 text-4xl hover:text-purple-700">
+                  <ZoomOutMapIcon />
+                </span>
+              </Link>
+            ) : (
+              <></>
+            )}
+            <span
+              className="px-2 text-4xl hover:text-purple-700"
+              onClick={copyToClipboard}
+            >
+              <ShareIcon />
+            </span>
           </div>
         </div>
 
@@ -54,11 +82,14 @@ function Post(props) {
           </div>
         ) : null}
 
-        <h6 className="mx-3 md:mx-4 mt-2 md:mt-3 mb-2 text-xl text-gray-800 font-bold">
+        <h6 className="mx-3 md:mx-4 mt-2 md:mt-3 mb-2 text-xl text-gray-800 font-semibold">
           {props.title}{" "}
         </h6>
         <div className="mx-3 md:mx-4 text-gray-700 font-normal entry-footer excerpt">
-          <ReadMore description={props.description}></ReadMore>
+          <ReadMore
+            description={props.description}
+            readMoreEnabled={props.readMoreEnabled}
+          ></ReadMore>
         </div>
       </div>
     </div>
