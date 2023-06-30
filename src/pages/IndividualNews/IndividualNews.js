@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Loader from "react-js-loader";
+// import Loader from "react-js-loader";
 import { useHttpClient } from "../../util/components/hooks/http-hook";
 import postedLogo from "../../images/logo/filled.png";
 import { Link, useParams } from "react-router-dom";
 import Post from "../News/Post";
+import MusicBarLoader from "../../components/MusicBarLoader/MusicBarLoader";
 
 function IndividualNews() {
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
@@ -22,7 +23,6 @@ function IndividualNews() {
     };
     fetchPosts();
   }, [sendRequest]);
-  
 
   const categoryFullName = {
     ecom: "ECommerce",
@@ -56,21 +56,22 @@ function IndividualNews() {
     <>
       {/* Post Section  */}
       <div className="grid grid-cols-12">
-      <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-8 lg:col-start-3 mt-24 mb-6 border- border-purple-700">
-        {isLoading ||
-          (!loadedPosts && (
-            <div className="flex flex-col my-28 items-center  h-screen">
-              <Loader type="box-rectangular" bgColor={"rgb(107 33 168)"} title={""} color={''} size={100} />
+        <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-8 lg:col-start-3 mt-24 mb-6 border- border-purple-700">
+          {isLoading ||
+            (!loadedPosts && (
+              <div className="flex flex-col my-28 items-center  h-screen">
+                <MusicBarLoader />
                 <h2>Loading Posts....</h2>
                 <p>Please hang on.</p>
               </div>
-          ))}
+            ))}
 
-        {!isLoading &&
-          loadedPosts &&
-          loadedPosts.filter((item) => item.id === urlId)
-          .map(item => (
-            <Post
+          {!isLoading &&
+            loadedPosts &&
+            loadedPosts
+              .filter((item) => item.id === urlId)
+              .map((item) => (
+                <Post
                   key={item.id}
                   id={item.id}
                   title={item.title}
@@ -78,14 +79,12 @@ function IndividualNews() {
                   image={item.image}
                   postDate={item.postDate}
                   category={categoryFullName[item.category]}
-                  color = {categoryColor[item.category]}
-                  readMoreEnabled = {false}
+                  color={categoryColor[item.category]}
+                  readMoreEnabled={false}
                   expandable={false}
                 />
-          ))
-          }
-        
-      </div>
+              ))}
+        </div>
       </div>
     </>
   );

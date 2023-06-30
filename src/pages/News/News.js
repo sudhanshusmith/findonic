@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useHttpClient } from "../../util/components/hooks/http-hook";
-import Loader from "react-js-loader";
+// import Loader from "react-js-loader";
 
 import ErrorModal from "../../util/components/ErrorModal";
 import Post from "./Post";
 import findoNews from "../../images/logo/findonews.png";
 import Right from "./Right";
 import TabNavItem from "./TabNavItem";
+import MusicBarLoader from "../../components/MusicBarLoader/MusicBarLoader";
 
 function News() {
   // const [expanded, setExpanded] = React.useState(false);
@@ -114,13 +115,7 @@ function News() {
           {isLoading ||
             (!loadedPosts && (
               <div className="flex flex-col my-28 items-center  h-screen">
-                <Loader
-                  type="box-rectangular"
-                  bgColor={"rgb(107 33 168)"}
-                  title={""}
-                  color={""}
-                  size={100}
-                />
+                <MusicBarLoader/>
                 <h2>Loading Posts....</h2>
                 <p>Please hang on.</p>
               </div>

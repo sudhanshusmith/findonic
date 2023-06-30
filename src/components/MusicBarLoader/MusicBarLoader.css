@@ -1,0 +1,59 @@
+.music-bar-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.music-bar {
+  width: 10px;
+  height: 60px;
+  margin-right: 5px;
+  background-color: rgb(107 33 168);
+  border-radius: 4px;
+  animation: wave 0.5s infinite;
+}
+
+@keyframes wave {
+  0% {
+    height: 60px;
+  }
+  50% {
+    height: 30px;
+  }
+  100% {
+    height: 60px;
+  }
+}
+
+.music-bar-0 {
+  animation-delay: 0s;
+}
+
+.music-bar-1 {
+  animation-delay: 0.1s;
+}
+
+.music-bar-2 {
+  animation-delay: 0.2s;
+}
+
+.music-bar-3 {
+  animation-delay: 0.3s;
+}
+
+.music-bar-4 {
+  animation-delay: 0.4s;
+}
+
+.music-bar-5 {
+  animation-delay: 0.3s;
+}
+
+.music-bar-6 {
+  animation-delay: 0.2s;
+}
+
+.music-bar-7 {
+  animation-delay: 0.1s;
+}
