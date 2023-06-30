@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHttpClient } from "../../util/components/hooks/http-hook";
-import Loader from "react-js-loader";
+// import Loader from "react-js-loader";
 
 import ErrorModal from "../../util/components/ErrorModal";
 import Post from "./Post";
