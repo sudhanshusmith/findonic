@@ -112,7 +112,7 @@ function News() {
           {isLoading ||
             (!loadedPosts && (
               <div className="flex flex-col my-28 items-center  h-screen">
-              <Loader type="box-rectangular" bgColor={"rgb(107 33 168)"} title={""} color={''} size={100} />
+              // <Loader type="box-rectangular" bgColor={"rgb(107 33 168)"} title={""} color={''} size={100} />
                 <h2>Loading Posts....</h2>
                 <p>Please hang on.</p>
               </div>
