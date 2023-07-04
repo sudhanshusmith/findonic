@@ -27,7 +27,7 @@ function Right() {
   return (
     <>
      
-       {data.map(item => (
+       {/* {data.map(item => (
         <div key={item.id} className="my-3 mb-2 shadow-md px-3 pt-3 mr-3 rounded-xl border-2 border-gray-200 ">
         <p className="">
           Sponsored
@@ -49,7 +49,17 @@ function Right() {
         </a>
         </div>
         
-       ))}
+       ))} */}
+
+
+
+
+      
+        <div key={item.id} className="my-3 mb-2 shadow-md px-3 pt-3 mr-3 rounded-xl">
+        
+        </div>
+        
+       
       
     </>
   );
