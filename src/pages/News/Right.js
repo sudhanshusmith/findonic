@@ -55,9 +55,9 @@ function Right() {
 
 
       
-        <div key={item.id} className="my-3 mb-2 shadow-md px-3 pt-3 mr-3 rounded-xl">
+        {/* <div key={item.id} className="my-3 mb-2 shadow-md px-3 pt-3 mr-3 rounded-xl"> */}
         
-        </div>
+        {/* </div> */}
         
        
       
