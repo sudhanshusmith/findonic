@@ -88,7 +88,7 @@ function News() {
         ></img>
       </div>
       <p className="text-center">
-        Note: This Page only shows latest 5 News in Each Category.
+        Note: This Page only shows latest 10 News in Each Category.
       </p>
       <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-3 hidden md:block border- border-purple-700">
@@ -127,7 +127,7 @@ function News() {
             loadedPosts
               .slice(0)
               .reverse()
-              .slice(0, 5)
+              .slice(0, 10)
               .map((item) => (
                 <Post
                   key={item.id}
@@ -149,7 +149,7 @@ function News() {
               .slice(0)
               .reverse()
               .filter((apost) => apost.category == activeTab)
-              .slice(0, 5)
+              .slice(0, 10)
               .map((item) => (
                 <Post
                   key={item.id}
